@@ -1,0 +1,14 @@
+HashMod:8
+BucketSize:2
+add	0	Pikachu	200	Electric
+add	1	Pichu	100	Electric
+add	2	Raichu	250	Electric
+add	3	Charizard	400	Fire
+add	4	Squirtle	120	Water
+add	5	Bulbasaur	300	Grass
+add	6	Blastoise	450	Water
+add	7	Abra	200	Psychic
+add	8	Kadabra	300	Psychic
+add	9	Alakazam	400	Psychic
+print
+quit

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<!-- saved from url=(0094)https://moodle.uam.es/pluginfile.php/3615558/mod_resource/content/12/IA_2022_2023_P01_ENG.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Assignment 1: Search</title>
+    <style>
+</style>
+    
+    <link rel="stylesheet" href="./Assignment 1_ Search_files/markdown.css">
+<link rel="stylesheet" href="./Assignment 1_ Search_files/highlight.css">
+<style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+    </style>
+    <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+    
+    
+    
+<style data-styled="active" data-styled-version="5.3.6">.heKozI{visibility:hidden;}.kYxvte{font-family:roboto;font-weight:100;}.kYxvtg{font-family:roboto;font-weight:300;}.kYxvtj{font-family:roboto;font-weight:400;}.kYxvti{font-family:roboto;font-weight:500;}.kYxvtk{font-family:roboto;font-weight:700;}.kYxvtm{font-family:roboto;font-weight:900;}.iRXaCE{font-family:rebond;font-weight:400;}.iRXaCF{font-family:rebond;font-weight:500;}.iRXaCC{font-family:rebond;font-weight:600;}.iRXaCD{font-family:rebond;font-weight:700;}</style></head>
+<body class="vscode-body vscode-light vsc-initialized" data-new-gr-c-s-check-loaded="14.1097.0" data-gr-ext-installed=""><h1 id="assignment-1-search">Assignment 1: Search</h1>
+<center>Last updated: 2022-09-14</center>
+<p>Publication date: 2022-09-14<br>
+Due date: Wednesday, 2022-10-13</p>
+
+<p align="center">
+  <img src="./Assignment 1_ Search_files/maze.png">
+</p>
+
+<center>All those colored walls,</center>
+<center>Mazes give Pacman the blues,</center>
+<center>So teach him to search.</center>
+<p><strong>Credit:</strong> This assignment is based on <a href="https://inst.eecs.berkeley.edu/~cs188/fa20/projects/">https://inst.eecs.berkeley.edu/~cs188/fa20/projects/</a></p>
+<h2 id="important">Important</h2>
+<h3 id="anti-plagiarism-copying--publication-of-results">Anti-plagiarism, copying &amp; publication of results</h3>
+<p>As <a href="http://www.cs.uu.nl/docs/vakken/b2ki/LastYear/PacManProjects/project_instructions.html">Berkeley’s disclaimer</a> says, you are welcome to use the Pac-Man projects and infrastructure for any educational or personal use. However, <strong>it is strictly prohibited to distribute or post solutions to any of the projects</strong>. Furthermore, following the ACADEMIC EVALUATION REGULATIONS of the ESCUELA POLITÉCNICA SUPERIOR at the UNIVERSIDAD AUTÓNOMA DE MADRID, Article 14; “In the case of a <strong>copy</strong>, the subject will be graded in the call where the copy was produced with zero points.  As an additional measure, the teacher can initiate an informative file (a disciplinary procedure), according to the UAM Assessment Regulations”.</p>
+<h2 id="submission">Submission</h2>
+<p>The assignment must be completed in teams of two, and submitted by uploading it to Moodle.</p>
+<p>Each submission should consist of a single zip file named <strong>p1_[gggg]_[mm]_[surname1]_[surname2].zip</strong>, where gggg is the lab group number, and mm is the identifier assigned to each person/pair in your group lab.</p>
+<p>It is important to always write the authors’s name and the team number assigned to you in your lab group in all the files that you submit.</p>
+<h2 id="submission-contents">Submission contents</h2>
+<p>Your zip file should consist of a <strong>single folder</strong>, named as the zip file but without the extension, containing all your assignment files. This folder should contain:</p>
+<ul>
+<li>
+<p>The <strong>complete code</strong> including the files you modified. You should <strong>only</strong> change the files required below, and only in the parts marked with “*** YOUR CODE HERE ***”. Do not include any additional files.</p>
+</li>
+<li>
+<p>A file <code>autograder_results.txt</code> with the output of the autograder.</p>
+</li>
+<li>
+<p>A <strong>report</strong> containing a summary of the concepts covered in this assignment and a section for each exercise including:</p>
+<ol>
+<li>a personal comment on your approach to the problem and the decisions you took in order to tackle it, and why;</li>
+<li>a list and an explanation of the framework’s functions you have used;</li>
+<li>the code you added;</li>
+<li>screenshots of the tests carried out to verify its correct operation;</li>
+<li>your conclusions about the observed behavior and answers to each of the questions posed in the section</li>
+</ol>
+</li>
+</ul>
+<h2 id="grading">Grading</h2>
+<p>Grading will be divided between the report (40%) and the code (60%). Both elements will be evaluated in the scale 0-10.</p>
+<h2 id="your-tasks">Your tasks</h2>
+<p>The goal of this assignment is to explore the part of the course dedicated to search. To do this we will use a modified version of the software provided by the University of Berkeley, that you can download from Moodle. The programming language is Python (version 3.6 or higher), although it is not necessary to know it beforehand. 
+</p><p>The assignment consists of 6 exercises.</p>
+
+<h3 id="lets-get-started...">Let’s get started…</h3>
+<h2 id="introduction">Introduction to Python</h2>
+All the programming assigments in this course will use the programming language Python. In order to learn it, you can use the follwoing resources:
+<h3>(1) Berkeley Tutorial </h3>The Berkeley portal has a simple tutorial covering Python’s basics (<a href="https://inst.eecs.berkeley.edu/~cs188/fa20/project0/">https://inst.eecs.berkeley.edu/~cs188/fa20/project0/</a>). In this tutorial, you can skip the initial sections to start at section Python Basics. 
+
+<ol> <li>Download the file pythonbasics.zip to follow the tutorial
+  </li><li>When you are done, download tutorial.zip to solve the proposed exerrcises, and run the autograder to verify tour results.</li>
+</ol>
+<h3>(2) Exercises from HackerRank</h3>
+HackerRank (https://www.hackerrank.com/) is a web page with Python exercises that are auotograded. We recommend you try the following exercises:
+<ul> <li>Loops: https://www.hackerrank.com/challenges/python-loops/problem?isFullScreen=true
+ </li><li>Write a function: https://www.hackerrank.com/challenges/write-a-function/problem?isFullScreen=true
+ </li><li>Nested lists: 'https://www.hackerrank.com/challenges/nested-list/problem?isFullScreen=true'
+</li><li>List comprehension: https://www.hackerrank.com/challenges/list-comprehensions/problem?isFullScreen=true
+</li><li>Find the Runner-Up score: https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem?isFullScreen=true</li></ul>
+
+<h2 id="introduction">Introduction to the assignment</h2>
+<p>In this project, your Pacman agent will find paths through his maze world, both to reach a particular location and to collect food efficiently. You will build general search algorithms and apply them to Pacman scenarios. This project includes an autograder for you to grade your answers on your machine. This can be run with the command:</p>
+<pre><code>python autograder.py
+</code></pre>
+<p>The Python tutorial linked above has more information about using the autograder.</p>
+<p>The code for this project consists of several Python files, some of which you will need to read and understand in order to complete the assignment, and some of which you can ignore. You can download all the code and supporting files as a zip archive from Moodle.</p>
+
+<table>
+<thead>
+<tr>
+<th><strong>Files you’ll edit</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>search.py</code></td>
+<td>Where all of your search algorithms will reside.</td>
+</tr>
+<tr>
+<td><code>searchAgents.py</code></td>
+<td>Where all of your search-based agents will reside.</td>
+</tr>
+<tr>
+<td><strong>Files you might want to look at:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><code>pacman.py</code></td>
+<td>The main file that runs Pacman games. This file describes a Pacman GameState type, which you use in this project.</td>
+</tr>
+<tr>
+<td><code>game.py</code></td>
+<td>The logic behind how the Pacman world works. This file describes several supporting types like AgentState, Agent, Direction, and Grid</td>
+</tr>
+<tr>
+<td><code>util.py</code></td>
+<td>Useful data structures for implementing search algorithms.</td>
+</tr>
+<tr>
+<td><strong>Supporting files you can ignore:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><code>graphicsDisplay.py</code></td>
+<td>Graphics for Pacman.</td>
+</tr>
+<tr>
+<td><code>graphicsUtils.py</code></td>
+<td>Support for Pacman graphics.</td>
+</tr>
+<tr>
+<td><code>textDisplay.py</code></td>
+<td>ASCII graphics for Pacman.</td>
+</tr>
+<tr>
+<td><code>ghostAgents.py</code></td>
+<td>Agents to control ghosts.</td>
+</tr>
+<tr>
+<td><code>keyboardAgents.py</code></td>
+<td>Keyboard interfaces to control Pacman.</td>
+</tr>
+<tr>
+<td><code>layout.py</code></td>
+<td>Code for reading layout files and storing their contents.</td>
+</tr>
+<tr>
+<td><code>autograder.py</code></td>
+<td>Project autograde.</td>
+</tr>
+<tr>
+<td><code>testParser.py</code></td>
+<td>Parses autograder test and solution files.</td>
+</tr>
+<tr>
+<td><code>testClasses.py</code></td>
+<td>General autograding test classes.</td>
+</tr>
+<tr>
+<td><code>test_cases/</code></td>
+<td>Directory containing the test cases for each section.</td>
+</tr>
+<tr>
+<td><code>searchTestClasses.py</code></td>
+<td>Autograding test classes for this assignment.</td>
+</tr>
+</tbody>
+</table><p><strong>Files to Edit and Submit:</strong> You will fill in portions of <code>search.py</code> and <code>searchAgents.py</code> during the assignment, to be included in your submission as described above. Please <em>do not</em> change the other files in this distribution.</p>
+<p><strong>Code Evaluation:</strong> Your code will be autograded for technical correctness. Please <em>do not</em> change the names of any provided functions or classes within the code, or you will wreak havoc on the autograder. However, <strong>the correctness of your implementation</strong> – not the autograder’s judgements – will be the final judge of your score. We will review and grade assignments individually to ensure that you receive due credit for your work.</p>
+<p><strong>Academic Dishonesty:</strong> We will be checking your code against other submissions in the class for logical redundancy. If you copy someone else’s code and submit it with minor changes, we will know. These cheat detectors are quite hard to fool, so please don’t try. We trust you all to submit your own work only; <em>please</em> don’t let us down. If you do, we will pursue the strongest consequences available to us.</p>
+<p><strong>Getting Help:</strong> You are not alone! If you find yourself stuck on something, contact the course staff for help. Office hours and the discussion forum are there for your support; please use them. We want these projects to be rewarding and instructional, not frustrating and demoralizing. But, we don’t know when or how to help unless you ask.</p>
+<p><strong>Discussion:</strong> Please be careful not to post spoilers.</p>
+<h2 id="welcome-to-pacman">Welcome to Pacman</h2>
+<p>After downloading the code (file search.zip), unzipping it, and changing to the directory, you should be able to play a game of Pacman by typing the following at the command line:</p>
+<pre><code>python pacman.py
+</code></pre>
+<p>Pacman lives in a shiny blue world of twisting corridors and tasty round treats. Navigating this world efficiently will be Pacman’s first step in mastering his domain. The simplest agent in <code>searchAgents.py</code> is called the <code>GoWestAgent</code>, which always goes West (a trivial reflex agent). This agent can occasionally win:</p>
+<pre><code>python pacman.py --layout testMaze --pacman GoWestAgent 
+</code></pre>
+<p>But, things get ugly for this agent when turning is required:</p>
+<pre><code>python pacman.py --layout tinyMaze --pacman GoWestAgent 
+</code></pre>
+<p>If Pacman gets stuck, you can exit the game by typing CTRL-c into your terminal. Soon, your agent will solve not only <code>tinyMaze</code>, but any maze you want. Note that <code>pacman.py</code> supports a number of options that can each be expressed in a long way (e.g., <code>--layout</code>) or a short way (e.g., <code>-l</code>). You can see the list of all options and their default values via:</p>
+<pre><code>python pacman.py -h 
+</code></pre>
+<p>Also, all of the commands that appear in this project also appear in <code>commands.txt</code>, for easy copying and pasting. In UNIX/Mac OS X, you can even run all these commands in order with <code>bash commands.txt</code>.</p>
+<p>A useful function that may interest you is the frameTime option (in seconds), which tells Pacman how fast it is going. Modifying it can help you to debug or simply see the game better. For example:</p>
+<pre><code>python pacman.py --frameTime 0.5  
+</code></pre>
+<h2 id="question-1-1-point-finding-a-fixed-food-dot-using-depth-first-search">Section 1: Finding a Fixed Food Dot using Depth First Search</h2>
+<p>In <code>searchAgents.py</code>, you’ll find a fully implemented <code>SearchAgent</code>, which plans out a path through Pacman’s world and then executes that path step-by-step. The search algorithms for formulating a plan are not implemented – that’s your job.</p>
+<p>First, test that the <code>SearchAgent</code> is working correctly by running:</p>
+<pre><code>python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch 
+</code></pre>
+<p>The command above tells the <code>SearchAgent</code> 
+to use <code>tinyMazeSearch</code> as its search algorithm, 
+which is implemented in <code>search.py</code>. 
+Pacman should navigate the maze successfully. 
+Now it’s time to write full-fledged generic search functions 
+to help Pacman plan routes! 
+Pseudocode for the search algorithms you’ll write can be 
+found in the theory lecture slides. </p>
+<p><strong><em>Important note:</em></strong> 
+It is not necessary to build the search 
+tree explicitly. Besides the state of the system corresponding 
+to a particular stage
+of the search (the <strong>search state</strong>),
+the <strong>search node</strong> must include additional information. 
+In particular, it should be possible to retrieve the path from 
+the start to the current state using this information.</p>
+<p><strong><em>Important note:</em></strong> The search functions implemented have
+to return a list of <em>actions</em> that will lead the agent from the 
+start to the goal. 
+These actions must be legal moves (valid directions, no moving through walls). In the case that the search fails (the algorithm does not find a solution), return <code>None</code>. </p>
+<p><strong><em>Hint:</em></strong> The search algorithms are very similar. The implementations of DFS, BFS, UCS, and A* differ only in the details of how the nodes to be expanded are managed. 
+Therefore, concentrate on getting DFS right and the rest should be relatively straightforward. You should design a single generic search method, which is configured with an algorithm-specific queuing strategy. </p>
+<p><strong><em>Important note:</em></strong> 
+Make sure to use the <code>Stack</code>, <code>Queue</code>, 
+and <code>PriorityQueue</code> data structures provided 
+in <code>util.py</code>! 
+These data structure implementations have particular properties which are required for compatibility with the autograder and will ease your programming.</p>
+<p><strong><em>Important note:</em></strong> To guarantee optimality, 
+checking whether states have been visited should be done 
+<strong>upon expansion</strong>, not upon generation.</p>
+<p>Implement the depth-first search (DFS) algorithm in the <code>depthFirstSearch</code> function in <code>search.py</code>. To make your algorithm <em>complete</em>, write the graph search version of DFS, which avoids expanding any already visited states. Your code should quickly find a solution for:</p>
+<pre><code>python pacman.py -l tinyMaze -p SearchAgent 
+</code></pre>
+<pre><code>python pacman.py -l mediumMaze -p SearchAgent 
+</code></pre>
+<pre><code>python pacman.py -l bigMaze -z .5 -p SearchAgent 
+</code></pre>
+<p>*<strong>Remember</strong> to include screenshots of these tests and explain what you have observed in your report.</p>
+<p>The Pacman board will show an overlay of the states explored, and the order in which they were explored (brighter red means earlier exploration).<br>
+<strong>Question 1.1</strong>: Is the exploration order what you would have expected? Does Pacman actually go to all the explored squares on his way to the goal?</p>
+<p><em>Hint:</em> If you use a <code>Stack</code> as your data structure, the solution found by your DFS algorithm for <code>mediumMaze</code> should have a length of 130 (provided you push successors onto the fringe in the order provided by getSuccessors; you might get 246 if you push them in the reverse order).<br>
+<strong>Question 1.2</strong>: Is this a least cost solution? If not, think about what depth-first search is doing wrong.</p>
+<p><em>Grading:</em> Please run the below command to see if your implementation passes all the autograder test cases.</p>
+<pre><code>python autograder.py -q q1 
+</code></pre>
+<h2 id="question-2-1-points-breadth-first-search">Section 2: Breadth First Search</h2>
+<p>Implement the breadth-first search (BFS) algorithm in the <code>breadthFirstSearch</code> function in <code>search.py</code>. Again, write a graph search algorithm that avoids expanding any already visited states. Test your code the same way you did for depth-first search.</p>
+<pre><code>python pacman.py -l tinyMaze -p SearchAgent 
+</code></pre>
+<pre><code>python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs 
+</code></pre>
+<pre><code>python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5 
+</code></pre>
+<p>*<strong>Remember</strong> to print screenshots of these tests and explain what you have observed in your report.</p>
+<p><strong>Question 2.1</strong>: Does BFS find a least cost solution? If not, check your implementation.</p>
+<p><em>Hint:</em> If Pacman moves too slowly for you, try the option <code>--frameTime 0</code>.</p>
+<p><em>Note:</em> If you’ve written your search code generically, your code should work equally well for the eight-puzzle search problem without any changes.</p>
+<pre><code>python eightpuzzle.py 
+</code></pre>
+<p><em>Grading:</em> Please run the below command to see if your implementation passes all the autograder test cases.</p>
+<pre><code>python autograder.py -q q2 
+</code></pre>
+<h2 id="question-3-2-points-varying-the-cost-function">Section 3: Varying the Cost Function</h2>
+<p>While BFS will find a fewest-actions path to the goal, we might want to find paths that are “best” in other senses. Consider <code>mediumDottedMaze</code> and <code>mediumScaryMaze</code>. By changing the cost function, we can encourage Pacman to find different paths. For example, we can charge more for dangerous steps in ghost-ridden areas or less for steps in food-rich areas, and a rational Pacman agent should adjust its behavior in response. Implement the uniform-cost graph search algorithm  (UCS) in the <code>uniformCostSearch</code> function in <code>search.py</code>. We encourage you to look through <code>util.py</code> for some data structures that may be useful in your implementation. You should now observe successful behavior in all three of the following layouts, where the agents below are all UCS agents that differ only in the cost function they use (the agents and cost functions are written for you):</p>
+<pre><code>python pacman.py -l mediumMaze -p SearchAgent -a fn=ucs 
+</code></pre>
+<pre><code>python pacman.py -l mediumDottedMaze -p StayEastSearchAgent 
+</code></pre>
+<pre><code>python pacman.py -l mediumScaryMaze -p StayWestSearchAgent 
+</code></pre>
+<p>*<strong>Remember</strong> to print screenshots of these tests and explain what you have observed in your report.</p>
+<p><em>Note:</em> You should get very low and very high path costs for the <code>StayEastSearchAgent</code> and <code>StayWestSearchAgent</code> respectively, due to their exponential cost functions (see <code>searchAgents.py</code> for details).</p>
+<p><em>Grading:</em> Please run the below command to see if your implementation passes all the autograder test cases.</p>
+<pre><code>python autograder.py -q q3 
+</code></pre>
+<h2 id="question-4-2-points-a-search">Section 4: A* search</h2>
+<p>Implement A* graph search in the empty function <code>aStarSearch</code> in <code>search.py</code>. A* takes a heuristic function as an argument. Heuristics take two arguments: a state in the search problem (the main argument), and the problem itself (for reference information). The <code>nullHeuristic</code> heuristic function in <code>search.py</code> is a trivial example. You can test your A* implementation on the original problem of finding a path through a maze to a fixed position using the Manhattan distance heuristic (implemented already as <code>manhattanHeuristic</code> in <code>searchAgents.py</code>).</p>
+<pre><code>python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic 
+</code></pre>
+<p>*<strong>Remember</strong> to print screenshots of these tests and explain what you have observed in your report.</p>
+<p>You should see that A* finds the optimal solution slightly faster than uniform cost search (about 549 vs. 620 search nodes expanded in our implementation, but ties in priority may make your numbers differ slightly).<br>
+<strong>Question 4.1</strong>: What happens on <code>openMaze</code> for the various search strategies?</p>
+<p><em>Grading:</em> Please run the below command to see if your implementation passes all the autograder test cases.</p>
+<pre><code>python autograder.py -q q4 
+</code></pre>
+<h2 id="question-5-2-points-finding-all-the-corners">Section 5: Finding All the Corners</h2>
+<p>The real power of A* will only be apparent with a more challenging search problem. Now, it’s time to formulate a new problem and design a heuristic for it. In <em>corner mazes</em>, there are four dots, one in each corner. Our new search problem is to find the lowest-cost path through the maze that touches all four corners (whether the maze actually has food there or not). Note that for some mazes like <code>tinyCorners</code>, the lowest-cost path does not always go to the closest food first!</p>
+<p><em>Hint</em>: the lowest-cost path through <code>tinyCorners</code> takes 28 steps.</p>
+<p><em>Note</em>: Make sure to complete Section 2 before working on Section 5, because Section 5 builds upon your answer for Section 2.</p>
+<p><em>Implement</em> the <code>CornersProblem</code> search problem in <code>searchAgents.py</code>. You will need to choose (and justify in the report) a state representation that encodes all the information necessary to detect whether all four corners have been reached. Now, your search agent should solve:</p>
+<pre><code>python pacman.py -l tinyCorners -p SearchAgent -a fn=bfs,prob=CornersProblem 
+</code></pre>
+<pre><code>python pacman.py -l mediumCorners -p SearchAgent -a fn=bfs,prob=CornersProblem 
+</code></pre>
+<p>*<strong>Remember</strong> to print screenshots of these tests and explain what you have observed in your report.</p>
+<p>To receive full credit, you need to define an abstract state representation that <em>does not</em> encode irrelevant information (like the position of ghosts, where extra food is, etc.). In particular, do not use a Pacman <code>GameState</code> as a search state. Your code will be very, very slow if you do (and also wrong).</p>
+<p><em>Hint 1:</em> The only parts of the game state you need to reference in your implementation are the starting Pacman position and the location of the four corners.</p>
+<p><em>Hint 2:</em> When coding up <code>getSuccessors</code>, make sure to add children to your successors list with a cost of 1.</p>
+<p>Our implementation of <code>breadthFirstSearch</code> expands just under 2000 search nodes on <code>mediumCorners</code>. However, heuristics (used with A* search) can reduce the amount of searching required.</p>
+<p><em>Grading:</em> Please run the below command to see if your implementation passes all the autograder test cases.</p>
+<pre><code>python autograder.py -q q5 
+</code></pre>
+<h2 id="question-6-2-points-corners-problem-heuristic">Section 6: Corners Problem. Heuristic</h2>
+<p><em>Note: Make sure to complete Section 4 before working on Section 6, because Section 6 builds upon your answer for Section 4.</em> Implement a non-trivial, consistent heuristic for the <code>CornersProblem</code> in <code>cornersHeuristic</code>.</p>
+<pre><code>python pacman.py -l mediumCorners -p AStarCornersAgent -z 0.5 
+</code></pre>
+<p><em>Note:</em> <code>AStarCornersAgent</code> is a shortcut for</p>
+<pre><code>-p SearchAgent -a fn=aStarSearch,prob=CornersProblem,heuristic=cornersHeuristic 
+</code></pre>
+<p>*<strong>Remember</strong> to print screenshots of these tests and explain what you have observed in your report.</p>
+<p><em><strong>Admissibility vs. Consistency:</strong></em> 
+Remember, heuristics are just functions that take search states as their argument 
+and return estimates of the optimal (lowest cost) path from that state to a goal. 
+More effective heuristics will return values closer to the actual goal costs. 
+To be <em>admissible</em>, the heuristic values must be lower 
+bounds of the actual cost of the optimal (lowest cost) path to a goal state 
+(and non-negative). 
+To be <em>consistent</em>, it must additionally hold that if an action 
+has cost <em>c</em>, then taking that action can only cause 
+a drop in the cost estimated by the heuristic 
+of at most <em>c</em>. 
+Remember that admissibility isn’t sufficient to guarantee optimality 
+in graph search – you need the stronger condition of consistency (monotonicity). 
+Fortunately, <strong>heuristics derived from problem relaxations are not 
+only admissible but also consitent</strong>.</p>
+<p><strong><em>Important note:</em></strong> 
+The heuristic has to be consistent for any maze configuration 
+not just for the particular mazes considered.</p>
+<p><strong><em>Important note:</em></strong> 
+You may find inconsistent heuristics for which the number of expanded nodes
+is lower than for consistent ones. 
+These answers <strong>may</strong> pass the tests in the autograder. 
+However, they are not correct, and will not receive full credit.</p>
+      
+<p><em><strong>Non-Trivial Heuristics:</strong></em> 
+The trivial heuristics are the ones that return zero everywhere (UCS) 
+and the heuristic which computes the true completion cost. 
+The former won’t save you any time. Computing the latter requires 
+solving as many search problems as possible search states. 
+In general, this computation will timeout the autograder. 
+You want a heuristic which reduces total compute time, 
+which includes not only the computational cost of the search, 
+but also the cost associated with the computation of the heuristic. 
+Look for relaxations of the search problem for 
+which the optimal path costs can be computed efficiently.
+For this assignment, the autograder will only check node counts (aside from enforcing a reasonable time limit).</p>
+<p><strong>Question 6.1</strong>: Explain the logic behind your heuristic.</p>
+<p><em><strong>Grading:</strong></em> Your heuristic 
+must be a non-trivial non-negative consistent heuristic to receive any points. 
+Make sure that your heuristic returns 0 at every goal state and never returns 
+a negative value. 
+Depending on how few nodes your heuristic expands, 
+you’ll be graded according to the following criteria:</p>
+
+<table>
+<thead>
+<tr>
+<th>Number of nodes expanded</th>
+<th>Grade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>more than 2000</td>
+<td>0/3</td>
+</tr>
+<tr>
+<td>at most 2000</td>
+<td>1/3</td>
+</tr>
+<tr>
+<td>at most 1600</td>
+<td>2/3</td>
+</tr>
+<tr>
+<td>at most 1200</td>
+<td>3/3</td>
+</tr>
+</tbody>
+</table><p><em>Remember:</em> If your heuristic is inconsistent, you will receive <em>no</em> credit, so be careful!</p>
+<p><em>Grading:</em> Please run the below command to see if your implementation passes all the autograder test cases.</p>
+<pre><code>python autograder.py -q q6 
+</code></pre>
+
+
+
+
+<div id="ba_d_a_bfaffsin" style="color: initial; font: initial; font-feature-settings: initial; font-kerning: initial; font-optical-sizing: initial; font-palette: initial; font-synthesis: initial; font-variation-settings: initial; forced-color-adjust: initial; text-orientation: initial; text-rendering: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: initial; -webkit-writing-mode: initial; writing-mode: initial; zoom: initial; accent-color: initial; place-content: initial; place-items: initial; place-self: initial; alignment-baseline: initial; animation: initial; app-region: initial; appearance: initial; aspect-ratio: initial; backdrop-filter: initial; backface-visibility: initial; background: initial; background-blend-mode: initial; baseline-shift: initial; block-size: initial; border-block: initial; border: initial; border-radius: initial; border-collapse: initial; border-end-end-radius: initial; border-end-start-radius: initial; border-inline: initial; border-start-end-radius: initial; border-start-start-radius: initial; inset: initial; box-shadow: initial; box-sizing: initial; break-after: initial; break-before: initial; break-inside: initial; buffered-rendering: initial; caption-side: initial; caret-color: initial; clear: initial; clip: initial; clip-path: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; color-rendering: initial; color-scheme: initial; columns: initial; column-fill: initial; gap: initial; column-rule: initial; column-span: initial; contain: initial; contain-intrinsic-block-size: initial; contain-intrinsic-size: initial; contain-intrinsic-inline-size: initial; container: initial; content: initial; content-visibility: initial; counter-increment: initial; counter-reset: initial; counter-set: initial; cursor: initial; cx: initial; cy: initial; d: initial; display: initial; dominant-baseline: initial; empty-cells: initial; fill: initial; fill-opacity: initial; fill-rule: initial; filter: initial; flex: initial; flex-flow: initial; float: initial; flood-color: initial; flood-opacity: initial; grid: initial; grid-area: initial; height: initial; hyphenate-character: initial; hyphenate-limit-chars: initial; hyphens: initial; image-orientation: initial; image-rendering: initial; initial-letter: initial; inline-size: initial; inset-block: initial; inset-inline: initial; isolation: initial; letter-spacing: initial; lighting-color: initial; line-break: initial; list-style: initial; margin-block: initial; margin: initial; margin-inline: initial; marker: initial; mask: initial; mask-type: initial; math-depth: initial; math-shift: initial; math-style: initial; max-block-size: initial; max-height: initial; max-inline-size: initial; max-width: initial; min-block-size: initial; min-height: initial; min-inline-size: initial; min-width: initial; mix-blend-mode: initial; object-fit: initial; object-position: initial; object-view-box: initial; offset: initial; opacity: initial; order: initial; orphans: initial; outline: initial; outline-offset: initial; overflow-anchor: initial; overflow-clip-margin: initial; overflow-wrap: initial; overflow: initial; overscroll-behavior-block: initial; overscroll-behavior-inline: initial; overscroll-behavior: initial; padding-block: initial; padding: initial; padding-inline: initial; page: initial; page-orientation: initial; paint-order: initial; perspective: initial; perspective-origin: initial; pointer-events: initial; position: relative; quotes: initial; r: initial; resize: initial; rotate: initial; ruby-position: initial; rx: initial; ry: initial; scale: initial; scroll-behavior: initial; scroll-margin-block: initial; scroll-margin: initial; scroll-margin-inline: initial; scroll-padding-block: initial; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-align: initial; scroll-snap-stop: initial; scroll-snap-type: initial; scrollbar-gutter: initial; shape-image-threshold: initial; shape-margin: initial; shape-outside: initial; shape-rendering: initial; size: initial; speak: initial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; table-layout: initial; text-align: initial; text-align-last: initial; text-anchor: initial; text-combine-upright: initial; text-decoration: initial; text-decoration-skip-ink: initial; text-emphasis: initial; text-emphasis-position: initial; text-indent: initial; text-overflow: initial; text-shadow: initial; text-size-adjust: initial; text-transform: initial; text-underline-offset: initial; text-underline-position: initial; touch-action: initial; transform: initial; transform-box: initial; transform-origin: initial; transform-style: initial; transition: initial; translate: initial; user-select: initial; vector-effect: initial; vertical-align: initial; visibility: initial; border-spacing: initial; -webkit-box-align: initial; -webkit-box-decoration-break: initial; -webkit-box-direction: initial; -webkit-box-flex: initial; -webkit-box-ordinal-group: initial; -webkit-box-orient: initial; -webkit-box-pack: initial; -webkit-box-reflect: initial; -webkit-highlight: initial; -webkit-line-break: initial; -webkit-line-clamp: initial; -webkit-mask-box-image: initial; -webkit-mask: initial; -webkit-mask-composite: initial; -webkit-print-color-adjust: initial; -webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke: initial; -webkit-user-drag: initial; -webkit-user-modify: initial; white-space: initial; widows: initial; width: initial; will-change: initial; word-break: initial; word-spacing: initial; x: initial; y: initial; z-index: 2147483647;"><style type="text/css">@font-face{font-family:"Roboto";src:url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-100.woff) format("woff"),url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-100.woff2) format("woff2"),url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-100.ttf) format("truetype");font-style:normal;font-weight:100;font-display:swap}@font-face{font-family:"Roboto";src:url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-300.woff) format("woff"),url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-300.woff2) format("woff2"),url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-300.ttf) format("truetype");font-style:normal;font-weight:300;font-display:swap}@font-face{font-family:"Roboto";src:url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-400.woff) format("woff"),url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-400.woff2) format("woff2"),url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-400.ttf) format("truetype");font-style:normal;font-weight:400;font-display:swap}@font-face{font-family:"Roboto";src:url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-500.woff) format("woff"),url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-500.woff2) format("woff2"),url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-500.ttf) format("truetype");font-style:normal;font-weight:500;font-display:swap}@font-face{font-family:"Roboto";src:url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-700.woff) format("woff"),url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-700.woff2) format("woff2"),url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-700.ttf) format("truetype");font-style:normal;font-weight:700;font-display:swap}@font-face{font-family:"Roboto";src:url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-900.woff) format("woff"),url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-900.woff2) format("woff2"),url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Roboto/roboto-900.ttf) format("truetype");font-style:normal;font-weight:900;font-display:swap}@font-face{font-family:"Rebond";src:url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-400.woff) format("woff"),url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-400.woff2) format("woff2"),url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-400.ttf) format("truetype");font-style:normal;font-weight:400;font-display:swap}@font-face{font-family:"Rebond";src:url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-500.woff) format("woff"),url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-500.woff2) format("woff2"),url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-500.ttf) format("truetype");font-style:normal;font-weight:500;font-display:swap}@font-face{font-family:"Rebond";src:url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-600.woff) format("woff"),url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-600.woff2) format("woff2"),url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-600.ttf) format("truetype");font-style:normal;font-weight:600;font-display:swap}@font-face{font-family:"Rebond";src:url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-700.woff) format("woff"),url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-700.woff2) format("woff2"),url(chrome-extension://emalgedpdlghbkikiaeocoblajamonoh/fonts/Rebond/rebond-700.ttf) format("truetype");font-style:normal;font-weight:700;font-display:swap}</style><style type="text/css">#ba_d_a_bfaffsin div:empty {
+          display: block !important;
+        }#__wikibuy__ .__wikibuy.__onTop,body~div:not(#gdx-bubble-host),#piggyWrapper,#honeyContainer,#earny-root{position:absolute !important;z-index:100000 !important}body[data-shop-url="https://www.honeybum.com"] header>.header{z-index:99999}.mm-slideout{z-index:initial}.sorry-for-this__empty-styles{position:relative;z-index:10000}</style><div style="all: initial;"></div></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

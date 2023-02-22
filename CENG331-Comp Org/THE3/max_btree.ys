@@ -1,0 +1,96 @@
+#Muhammad Ebad Malik
+#2414860
+#331 arclab part a (ii)
+
+
+.pos 0
+    irmovq Stack, %rsp				#setup stack ptr
+    irmovq root, %rdi				#setup parameter
+    call max_btree				#call func
+    halt					#end
+
+max_btree:
+	irmovq $-9223372036854775808,%rax	#set max to minimum value
+	andq %rdi, %rdi                 	#check if root is null
+	je NullRoot			        #if root = Null go to NullRoot 
+	rrmovq %rdi, %r8			
+	irmovq $8, %r10
+	pushq %r8				#save value from caller
+	pushq %r9				# //
+	pushq %r10				# //
+	subq %r10,%rsp				# dec stack ptr by 8
+	
+        mrmovq 8(%rdi), %rdi			#put root->left in rdi
+        call max_btree				#call func for left subtree
+        mrmovq 16(%r8), %rdi			#put root->right in rdi
+        rrmovq	%rax, %r9			#save max from left subtree in r9
+        call max_btree				#call func for right subtree
+        rrmovq %r9,%rbx			#move left subtree max to rbx
+        subq %rax,%rbx				
+
+        cmovl %rax,%r9				#if r9 < rax, r9 = rax
+
+Cont:    
+        mrmovq (%r8),%rax			
+        rrmovq %r9,%rbx
+        subq %rax,%rbx
+
+
+    	cmovge %r9,%rax			# if rax >= r9, rax = r9
+    
+Conttwo:
+    	addq	%r10, %rsp			# inc stack ptr by 8
+    	popq %r10				# restore caller's value
+    	popq %r9				# //
+    	popq %r8				# //
+    	ret
+NullRoot:
+    	ret
+    
+    
+    
+    
+#Sample Binary tree
+.pos 0x200
+root:
+    .quad 5
+    .quad node7
+    .quad node12
+node7:
+    .quad 7
+    .quad node25
+    .quad node905
+node25:
+    .quad 25
+    .quad 0
+    .quad 0
+node905:
+    .quad 905
+    .quad nodem1
+    .quad 0
+nodem1:
+    .quad -1
+    .quad 0
+    .quad 0
+node12:
+    .quad 12
+    .quad node219
+    .quad nodem10
+node219:
+    .quad 219
+    .quad 0
+    .quad 0
+nodem10:
+    .quad -10
+    .quad 0
+    .quad node331
+node331:
+    .quad 331
+    .quad 0
+    .quad 0
+
+
+# The stack starts here and grows to lower addresses
+.pos 0x800
+Stack:
+

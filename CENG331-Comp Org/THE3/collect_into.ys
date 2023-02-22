@@ -1,0 +1,158 @@
+#Muhammad Ebad Malik
+#2414860
+#331 arclab part a (iii)
+
+
+.pos 0
+	irmovq Stack, %rsp			#setup stack ptr
+	irmovq root, %rdi			#setup first parameter	(root node)
+	irmovq array,%rsi			#setup second parameter (array)
+	irmovq $8,%rdx				#setup third parameter (len of array)
+	call collect_into			#call func
+	halt
+
+
+ collect_into:
+	pushq	%r8				#save value from caller
+	pushq	%r9				#save value from caller
+	pushq	%r10				#save value from caller
+	pushq	%rbx				#save value from caller
+	irmovq  $8,%rcx			#const 8 to rcx for stack manipulation
+	subq	%rcx, %rsp			#dec stack ptr by 8
+	andq	%rdi, %rdi			#check if root is null
+	je	done				#root = null go to done
+	rrmovq	%rdx, %rbx			#rbx saves remaining capacity
+	andq	%rdx, %rdx			#if len = 0 go to done
+	jle	done
+	rrmovq	%rdi, %r10			#r10 keeps pointer to current root
+	rrmovq	%rsi, %r9			#r9 keeps pointer to array index
+	xorq	%r8, %r8			
+body:						#body for both left and right subtree calls
+	mrmovq	8(%r10), %rdi			#new root is left of current root	
+	rrmovq	%rbx, %rdx			#rdx is len of array
+	rrmovq	%r9, %rsi			#rsi is the current array index
+	call	collect_into			#call func recursively
+	rrmovq %rax,%r13			#save return val in r13
+	
+	mrmovq	(%r10), %rdx			#get value of current root in rdx
+	subq	%rbx, %r13			#if r13(subtree capacity used) - remaining array capacity = 0, go to arrayfin
+	je	arrayfin			
+	
+	mrmovq	16(%r10), %r10			#root = root -> right
+	subq	%rax, %rbx	            	#set rbx to remaining capacity		
+	irmovq  $1,%r13			#set r13 = 1
+	addq    %rax,%r8			# r8 = r8 + rax + 1
+	addq    %r13,%r8			    
+	subq	%r13, %rbx			# rbx-- (remaining capacity of array) since we gonna add an element
+    	addq %rax, %r9                  	#all this for array = array+(rax*8) for current elem's index
+    	addq %rax, %r9
+    	addq %rax, %r9    
+    	addq %rax, %r9	
+    	addq %rax, %r9
+    	addq %rax, %r9    
+    	addq %rax, %r9    
+    	addq %rax, %r9
+    	rmmovq %rdx, (%r9)              	#add root->value to this correct index
+    	addq %rcx, %r9                  	#add 8 to forward the array 1 more index
+
+	andq	%r10, %r10			#check r10 (tree ptr)	
+	je	treefin			            #if r10 null go to treefin
+	andq    %rbx, %rbx			#check rbx (remaining array capacity)
+	jg	body                        	# if rbx > 0 go to body
+	
+treefin:					#tree fininished end call
+	addq	%rcx, %rsp			#inc stack ptr by 8	
+	rrmovq	%r8, %rax			#save indexes of arr filled in rax
+	popq	%rbx				#restore caller's value
+	popq	%r10				# restore caller's value
+	popq	%r9				# restore caller's value
+	popq	%r8				# restore caller's value
+	ret
+	
+arrayfin:					#array finished end call
+	addq	%rcx, %rsp			#inc stack ptr by 8
+	addq	%rbx, %r8			# r8 + rbx = original arr len
+	rrmovq	%r8, %rax			# rax = original arr len
+	popq	%rbx				# restore caller's value
+	popq	%r10				# restore caller's value
+	popq	%r9				# restore caller's value
+	popq	%r8				# restore caller's value
+	ret
+	
+done:
+	addq	%rcx, %rsp			#inc stack ptr by 8
+	xorq	%r8, %r8			# r8 = 0
+	popq	%rbx				# restore caller's value
+	rrmovq	%r8, %rax			# rax = r8 = 0
+	popq	%r10				# restore caller's value
+	popq	%r9				# restore caller's value
+	popq	%r8				# restore caller's value
+	ret
+
+# A sample eleven-element BST. Absolutely positioned
+.pos 0x200
+root:
+    .quad 17
+    .quad node6
+    .quad node24
+node6:
+    .quad 6
+    .quad node4
+    .quad node11
+node4:
+    .quad 4
+    .quad node3
+    .quad node5
+node3:
+    .quad 3
+    .quad 0
+    .quad 0
+node5:
+    .quad 5
+    .quad 0 # Remember that 0 is null.
+    .quad 0
+node11:
+    .quad 11
+    .quad node8
+    .quad 0
+node8:
+    .quad 8
+    .quad 0
+    .quad 0
+node24:
+    .quad 24
+    .quad node19
+    .quad node40
+node19:
+    .quad 19
+    .quad 0
+    .quad 0
+node40:
+    .quad 40
+    .quad 0
+    .quad node52
+node52:
+    .quad 52
+    .quad 0
+    .quad 0
+
+
+
+# An array with size of 8 to put elements in:
+
+.pos 0x400
+array:
+    .quad 0
+    .quad 0
+    .quad 0
+    .quad 0
+    .quad 0
+    .quad 0
+    .quad 0
+    .quad 0
+
+.pos 0x1600
+Stack:
+
+
+

@@ -1,0 +1,1476 @@
+"table": {
+	"row": {
+		"hashPref": 000,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0000,
+					"pokeKey": 0,
+					"pokeName": Drednaw,
+					"pokePower": 538,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 0001,
+					"pokeKey": 1,
+					"pokeName": Stunky,
+					"pokePower": 170,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0010,
+					"pokeKey": 2,
+					"pokeName": Garchomp,
+					"pokePower": 947,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0011,
+					"pokeKey": 3,
+					"pokeName": Gogoat,
+					"pokePower": 844,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 0100,
+					"pokeKey": 4,
+					"pokeName": Grubbin,
+					"pokePower": 46,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0101,
+					"pokeKey": 5,
+					"pokeName": Swoobat,
+					"pokePower": 800,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 0110,
+					"pokeKey": 6,
+					"pokeName": Latios,
+					"pokePower": 457,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 0100,
+					"pokeKey": 4,
+					"pokeName": Grubbin,
+					"pokePower": 46,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0101,
+					"pokeKey": 5,
+					"pokeName": Swoobat,
+					"pokePower": 800,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 0110,
+					"pokeKey": 6,
+					"pokeName": Latios,
+					"pokePower": 457,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	}
+}
+"table": {
+	"row": {
+		"hashPref": 000,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0000,
+					"pokeKey": 0,
+					"pokeName": Drednaw,
+					"pokePower": 538,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 0001,
+					"pokeKey": 1,
+					"pokeName": Stunky,
+					"pokePower": 170,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0010,
+					"pokeKey": 2,
+					"pokeName": Garchomp,
+					"pokePower": 947,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0011,
+					"pokeKey": 3,
+					"pokeName": Gogoat,
+					"pokePower": 844,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0100,
+					"pokeKey": 4,
+					"pokeName": Grubbin,
+					"pokePower": 46,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0101,
+					"pokeKey": 5,
+					"pokeName": Swoobat,
+					"pokePower": 800,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0110,
+					"pokeKey": 6,
+					"pokeName": Latios,
+					"pokePower": 457,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0111,
+					"pokeKey": 7,
+					"pokeName": Dottler,
+					"pokePower": 621,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+				"poke": {
+					"hash": 1000,
+					"pokeKey": 8,
+					"pokeName": Cloyster,
+					"pokePower": 717,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 1001,
+					"pokeKey": 9,
+					"pokeName": Sawsbuck,
+					"pokePower": 429,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+				"poke": {
+					"hash": 1000,
+					"pokeKey": 8,
+					"pokeName": Cloyster,
+					"pokePower": 717,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 1001,
+					"pokeKey": 9,
+					"pokeName": Sawsbuck,
+					"pokePower": 429,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+				"poke": {
+					"hash": 1000,
+					"pokeKey": 8,
+					"pokeName": Cloyster,
+					"pokePower": 717,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 1001,
+					"pokeKey": 9,
+					"pokeName": Sawsbuck,
+					"pokePower": 429,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+				"poke": {
+					"hash": 1000,
+					"pokeKey": 8,
+					"pokeName": Cloyster,
+					"pokePower": 717,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 1001,
+					"pokeKey": 9,
+					"pokeName": Sawsbuck,
+					"pokePower": 429,
+					"pokeType": Water
+				}
+			]
+		}
+	}
+}
+"table": {
+	"row": {
+		"hashPref": 000,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0000,
+					"pokeKey": 0,
+					"pokeName": Drednaw,
+					"pokePower": 538,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 0001,
+					"pokeKey": 1,
+					"pokeName": Stunky,
+					"pokePower": 170,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0010,
+					"pokeKey": 2,
+					"pokeName": Garchomp,
+					"pokePower": 947,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0011,
+					"pokeKey": 3,
+					"pokeName": Gogoat,
+					"pokePower": 844,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0100,
+					"pokeKey": 4,
+					"pokeName": Grubbin,
+					"pokePower": 46,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0101,
+					"pokeKey": 5,
+					"pokeName": Swoobat,
+					"pokePower": 800,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0110,
+					"pokeKey": 6,
+					"pokeName": Latios,
+					"pokePower": 457,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0111,
+					"pokeKey": 7,
+					"pokeName": Dottler,
+					"pokePower": 621,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1000,
+					"pokeKey": 8,
+					"pokeName": Cloyster,
+					"pokePower": 717,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 1001,
+					"pokeKey": 9,
+					"pokeName": Sawsbuck,
+					"pokePower": 429,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1010,
+					"pokeKey": 10,
+					"pokeName": Anorith,
+					"pokePower": 271,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 1011,
+					"pokeKey": 11,
+					"pokeName": Cherubi,
+					"pokePower": 131,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 1100,
+					"pokeKey": 12,
+					"pokeName": Poliwag,
+					"pokePower": 469,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 1101,
+					"pokeKey": 13,
+					"pokeName": Mankey,
+					"pokePower": 86,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 1110,
+					"pokeKey": 14,
+					"pokeName": Moltres,
+					"pokePower": 840,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 1100,
+					"pokeKey": 12,
+					"pokeName": Poliwag,
+					"pokePower": 469,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 1101,
+					"pokeKey": 13,
+					"pokeName": Mankey,
+					"pokePower": 86,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 1110,
+					"pokeKey": 14,
+					"pokeName": Moltres,
+					"pokePower": 840,
+					"pokeType": Electric
+				}
+			]
+		}
+	}
+}
+"table": {
+	"row": {
+		"hashPref": 0000,
+		"bucket": {
+			"hashLength": 4,
+			"pokes": [
+				"poke": {
+					"hash": 0000,
+					"pokeKey": 0,
+					"pokeName": Drednaw,
+					"pokePower": 538,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 0000,
+					"pokeKey": 16,
+					"pokeName": Chewtle,
+					"pokePower": 243,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 0001,
+		"bucket": {
+			"hashLength": 4,
+			"pokes": [
+				"poke": {
+					"hash": 0001,
+					"pokeKey": 1,
+					"pokeName": Stunky,
+					"pokePower": 170,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 0001,
+					"pokeKey": 17,
+					"pokeName": Sharpedo,
+					"pokePower": 145,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 0010,
+		"bucket": {
+			"hashLength": 4,
+			"pokes": [
+				"poke": {
+					"hash": 0010,
+					"pokeKey": 2,
+					"pokeName": Garchomp,
+					"pokePower": 947,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0010,
+					"pokeKey": 18,
+					"pokeName": Geodude,
+					"pokePower": 298,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 0011,
+		"bucket": {
+			"hashLength": 4,
+			"pokes": [
+				"poke": {
+					"hash": 0011,
+					"pokeKey": 3,
+					"pokeName": Gogoat,
+					"pokePower": 844,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 0011,
+					"pokeKey": 19,
+					"pokeName": Psyduck,
+					"pokePower": 424,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 0100,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0100,
+					"pokeKey": 4,
+					"pokeName": Grubbin,
+					"pokePower": 46,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0101,
+					"pokeKey": 5,
+					"pokeName": Swoobat,
+					"pokePower": 800,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 0101,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0100,
+					"pokeKey": 4,
+					"pokeName": Grubbin,
+					"pokePower": 46,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0101,
+					"pokeKey": 5,
+					"pokeName": Swoobat,
+					"pokePower": 800,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 0110,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0110,
+					"pokeKey": 6,
+					"pokeName": Latios,
+					"pokePower": 457,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0111,
+					"pokeKey": 7,
+					"pokeName": Dottler,
+					"pokePower": 621,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 0111,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0110,
+					"pokeKey": 6,
+					"pokeName": Latios,
+					"pokePower": 457,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0111,
+					"pokeKey": 7,
+					"pokeName": Dottler,
+					"pokePower": 621,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 1000,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1000,
+					"pokeKey": 8,
+					"pokeName": Cloyster,
+					"pokePower": 717,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 1001,
+					"pokeKey": 9,
+					"pokeName": Sawsbuck,
+					"pokePower": 429,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 1001,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1000,
+					"pokeKey": 8,
+					"pokeName": Cloyster,
+					"pokePower": 717,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 1001,
+					"pokeKey": 9,
+					"pokeName": Sawsbuck,
+					"pokePower": 429,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 1010,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1010,
+					"pokeKey": 10,
+					"pokeName": Anorith,
+					"pokePower": 271,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 1011,
+					"pokeKey": 11,
+					"pokeName": Cherubi,
+					"pokePower": 131,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 1011,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1010,
+					"pokeKey": 10,
+					"pokeName": Anorith,
+					"pokePower": 271,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 1011,
+					"pokeKey": 11,
+					"pokeName": Cherubi,
+					"pokePower": 131,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 1100,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1100,
+					"pokeKey": 12,
+					"pokeName": Poliwag,
+					"pokePower": 469,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 1101,
+					"pokeKey": 13,
+					"pokeName": Mankey,
+					"pokePower": 86,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 1101,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1100,
+					"pokeKey": 12,
+					"pokeName": Poliwag,
+					"pokePower": 469,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 1101,
+					"pokeKey": 13,
+					"pokeName": Mankey,
+					"pokePower": 86,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 1110,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1110,
+					"pokeKey": 14,
+					"pokeName": Moltres,
+					"pokePower": 840,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 1111,
+					"pokeKey": 15,
+					"pokeName": Mamoswine,
+					"pokePower": 932,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 1111,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1110,
+					"pokeKey": 14,
+					"pokeName": Moltres,
+					"pokePower": 840,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 1111,
+					"pokeKey": 15,
+					"pokeName": Mamoswine,
+					"pokePower": 932,
+					"pokeType": Dark
+				}
+			]
+		}
+	}
+}
+"search": {
+	"row": {
+		"hashPref": 1110,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1110,
+					"pokeKey": 14,
+					"pokeName": Moltres,
+					"pokePower": 840,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 1111,
+					"pokeKey": 15,
+					"pokeName": Mamoswine,
+					"pokePower": 932,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 1111,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1110,
+					"pokeKey": 14,
+					"pokeName": Moltres,
+					"pokePower": 840,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 1111,
+					"pokeKey": 15,
+					"pokeName": Mamoswine,
+					"pokePower": 932,
+					"pokeType": Dark
+				}
+			]
+		}
+	}
+}
+"search": {
+	"row": {
+		"hashPref": 0001,
+		"bucket": {
+			"hashLength": 4,
+			"pokes": [
+				"poke": {
+					"hash": 0001,
+					"pokeKey": 1,
+					"pokeName": Stunky,
+					"pokePower": 170,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 0001,
+					"pokeKey": 17,
+					"pokeName": Sharpedo,
+					"pokePower": 145,
+					"pokeType": Fire
+				}
+			]
+		}
+	}
+}
+"delete": {
+	"emptyBucketNum": 0
+}
+"delete": {
+	"emptyBucketNum": 0
+}
+"search": {
+}
+"search": {
+	"row": {
+		"hashPref": 1110,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1110,
+					"pokeKey": 14,
+					"pokeName": Moltres,
+					"pokePower": 840,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 1111,
+					"pokeKey": 15,
+					"pokeName": Mamoswine,
+					"pokePower": 932,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 1111,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1110,
+					"pokeKey": 14,
+					"pokeName": Moltres,
+					"pokePower": 840,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 1111,
+					"pokeKey": 15,
+					"pokeName": Mamoswine,
+					"pokePower": 932,
+					"pokeType": Dark
+				}
+			]
+		}
+	}
+}
+"table": {
+	"row": {
+		"hashPref": 0000,
+		"bucket": {
+			"hashLength": 4,
+			"pokes": [
+				"poke": {
+					"hash": 0000,
+					"pokeKey": 0,
+					"pokeName": Drednaw,
+					"pokePower": 538,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 0000,
+					"pokeKey": 16,
+					"pokeName": Chewtle,
+					"pokePower": 243,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 0001,
+		"bucket": {
+			"hashLength": 4,
+			"pokes": [
+				"poke": {
+					"hash": 0001,
+					"pokeKey": 1,
+					"pokeName": Stunky,
+					"pokePower": 170,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 0001,
+					"pokeKey": 17,
+					"pokeName": Sharpedo,
+					"pokePower": 145,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 0010,
+		"bucket": {
+			"hashLength": 4,
+			"pokes": [
+				"poke": {
+					"hash": 0010,
+					"pokeKey": 18,
+					"pokeName": Geodude,
+					"pokePower": 298,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 0011,
+		"bucket": {
+			"hashLength": 4,
+			"pokes": [
+				"poke": {
+					"hash": 0011,
+					"pokeKey": 19,
+					"pokeName": Psyduck,
+					"pokePower": 424,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 0100,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0100,
+					"pokeKey": 4,
+					"pokeName": Grubbin,
+					"pokePower": 46,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0101,
+					"pokeKey": 5,
+					"pokeName": Swoobat,
+					"pokePower": 800,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 0101,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0100,
+					"pokeKey": 4,
+					"pokeName": Grubbin,
+					"pokePower": 46,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0101,
+					"pokeKey": 5,
+					"pokeName": Swoobat,
+					"pokePower": 800,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 0110,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0110,
+					"pokeKey": 6,
+					"pokeName": Latios,
+					"pokePower": 457,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0111,
+					"pokeKey": 7,
+					"pokeName": Dottler,
+					"pokePower": 621,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 0111,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0110,
+					"pokeKey": 6,
+					"pokeName": Latios,
+					"pokePower": 457,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0111,
+					"pokeKey": 7,
+					"pokeName": Dottler,
+					"pokePower": 621,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 1000,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1000,
+					"pokeKey": 8,
+					"pokeName": Cloyster,
+					"pokePower": 717,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 1001,
+					"pokeKey": 9,
+					"pokeName": Sawsbuck,
+					"pokePower": 429,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 1001,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1000,
+					"pokeKey": 8,
+					"pokeName": Cloyster,
+					"pokePower": 717,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 1001,
+					"pokeKey": 9,
+					"pokeName": Sawsbuck,
+					"pokePower": 429,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 1010,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1010,
+					"pokeKey": 10,
+					"pokeName": Anorith,
+					"pokePower": 271,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 1011,
+					"pokeKey": 11,
+					"pokeName": Cherubi,
+					"pokePower": 131,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 1011,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1010,
+					"pokeKey": 10,
+					"pokeName": Anorith,
+					"pokePower": 271,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 1011,
+					"pokeKey": 11,
+					"pokeName": Cherubi,
+					"pokePower": 131,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 1100,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1100,
+					"pokeKey": 12,
+					"pokeName": Poliwag,
+					"pokePower": 469,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 1101,
+					"pokeKey": 13,
+					"pokeName": Mankey,
+					"pokePower": 86,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 1101,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1100,
+					"pokeKey": 12,
+					"pokeName": Poliwag,
+					"pokePower": 469,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 1101,
+					"pokeKey": 13,
+					"pokeName": Mankey,
+					"pokePower": 86,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 1110,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1110,
+					"pokeKey": 14,
+					"pokeName": Moltres,
+					"pokePower": 840,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 1111,
+					"pokeKey": 15,
+					"pokeName": Mamoswine,
+					"pokePower": 932,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 1111,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 1110,
+					"pokeKey": 14,
+					"pokeName": Moltres,
+					"pokePower": 840,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 1111,
+					"pokeKey": 15,
+					"pokeName": Mamoswine,
+					"pokePower": 932,
+					"pokeType": Dark
+				}
+			]
+		}
+	}
+}
+"search": {
+}
+"search": {
+	"row": {
+		"hashPref": 0100,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0100,
+					"pokeKey": 4,
+					"pokeName": Grubbin,
+					"pokePower": 46,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0101,
+					"pokeKey": 5,
+					"pokeName": Swoobat,
+					"pokePower": 800,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 0101,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0100,
+					"pokeKey": 4,
+					"pokeName": Grubbin,
+					"pokePower": 46,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0101,
+					"pokeKey": 5,
+					"pokeName": Swoobat,
+					"pokePower": 800,
+					"pokeType": Electric
+				}
+			]
+		}
+	}
+}
+"search": {
+	"row": {
+		"hashPref": 0110,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0110,
+					"pokeKey": 6,
+					"pokeName": Latios,
+					"pokePower": 457,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0111,
+					"pokeKey": 7,
+					"pokeName": Dottler,
+					"pokePower": 621,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 0111,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 0110,
+					"pokeKey": 6,
+					"pokeName": Latios,
+					"pokePower": 457,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 0111,
+					"pokeKey": 7,
+					"pokeName": Dottler,
+					"pokePower": 621,
+					"pokeType": Grass
+				}
+			]
+		}
+	}
+}
+"delete": {
+	"emptyBucketNum": 0
+}
+"search": {
+}
+"delete": {
+	"emptyBucketNum": 0
+}
+"delete": {
+	"emptyBucketNum": 0
+}
+"delete": {
+	"emptyBucketNum": 0
+}
+"delete": {
+	"emptyBucketNum": 1
+}
+"delete": {
+	"emptyBucketNum": 2
+}
+"delete": {
+	"emptyBucketNum": 2
+}
+"delete": {
+	"emptyBucketNum": 2
+}
+"delete": {
+	"emptyBucketNum": 3
+}
+"delete": {
+	"emptyBucketNum": 3
+}
+"delete": {
+	"emptyBucketNum": 4
+}
+"delete": {
+	"emptyBucketNum": 4
+}
+"delete": {
+	"emptyBucketNum": 5
+}
+"delete": {
+	"emptyBucketNum": 6
+}
+"delete": {
+	"emptyBucketNum": 7
+}
+"delete": {
+	"emptyBucketNum": 8
+}
+"delete": {
+	"emptyBucketNum": 9
+}
+"delete": {
+	"emptyBucketNum": 10
+}
+"search": {
+}

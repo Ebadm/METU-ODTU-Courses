@@ -1,0 +1,4 @@
+HashMod:8
+BucketSize:2
+print
+quit

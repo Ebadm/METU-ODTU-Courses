@@ -1,0 +1,616 @@
+"table": {
+	"row": {
+		"hashPref": 000,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 000,
+					"pokeKey": 0,
+					"pokeName": Pikachu,
+					"pokePower": 200,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 000,
+					"pokeKey": 8,
+					"pokeName": Kadabra,
+					"pokePower": 300,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 001,
+					"pokeKey": 1,
+					"pokeName": Pichu,
+					"pokePower": 100,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 001,
+					"pokeKey": 9,
+					"pokeName": Alakazam,
+					"pokePower": 400,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 010,
+					"pokeKey": 2,
+					"pokeName": Raichu,
+					"pokePower": 250,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 011,
+					"pokeKey": 3,
+					"pokeName": Charizard,
+					"pokePower": 400,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 010,
+					"pokeKey": 2,
+					"pokeName": Raichu,
+					"pokePower": 250,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 011,
+					"pokeKey": 3,
+					"pokeName": Charizard,
+					"pokePower": 400,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 100,
+					"pokeKey": 4,
+					"pokeName": Squirtle,
+					"pokePower": 120,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 101,
+					"pokeKey": 5,
+					"pokeName": Bulbasaur,
+					"pokePower": 300,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 100,
+					"pokeKey": 4,
+					"pokeName": Squirtle,
+					"pokePower": 120,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 101,
+					"pokeKey": 5,
+					"pokeName": Bulbasaur,
+					"pokePower": 300,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 110,
+					"pokeKey": 6,
+					"pokeName": Blastoise,
+					"pokePower": 450,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 111,
+					"pokeKey": 7,
+					"pokeName": Abra,
+					"pokePower": 200,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 110,
+					"pokeKey": 6,
+					"pokeName": Blastoise,
+					"pokePower": 450,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 111,
+					"pokeKey": 7,
+					"pokeName": Abra,
+					"pokePower": 200,
+					"pokeType": Psychic
+				}
+			]
+		}
+	}
+}
+"search": {
+	"row": {
+		"hashPref": 010,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 010,
+					"pokeKey": 2,
+					"pokeName": Raichu,
+					"pokePower": 250,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 011,
+					"pokeKey": 3,
+					"pokeName": Charizard,
+					"pokePower": 400,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 010,
+					"pokeKey": 2,
+					"pokeName": Raichu,
+					"pokePower": 250,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 011,
+					"pokeKey": 3,
+					"pokeName": Charizard,
+					"pokePower": 400,
+					"pokeType": Fire
+				}
+			]
+		}
+	}
+}
+"search": {
+	"row": {
+		"hashPref": 001,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 001,
+					"pokeKey": 1,
+					"pokeName": Pichu,
+					"pokePower": 100,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 001,
+					"pokeKey": 9,
+					"pokeName": Alakazam,
+					"pokePower": 400,
+					"pokeType": Psychic
+				}
+			]
+		}
+	}
+}
+"search": {
+}
+"search": {
+	"row": {
+		"hashPref": 010,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 010,
+					"pokeKey": 2,
+					"pokeName": Raichu,
+					"pokePower": 250,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 011,
+					"pokeKey": 3,
+					"pokeName": Charizard,
+					"pokePower": 400,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 010,
+					"pokeKey": 2,
+					"pokeName": Raichu,
+					"pokePower": 250,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 011,
+					"pokeKey": 3,
+					"pokeName": Charizard,
+					"pokePower": 400,
+					"pokeType": Fire
+				}
+			]
+		}
+	}
+}
+"table": {
+	"row": {
+		"hashPref": 000,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 000,
+					"pokeKey": 0,
+					"pokeName": Pikachu,
+					"pokePower": 200,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 000,
+					"pokeKey": 8,
+					"pokeName": Kadabra,
+					"pokePower": 300,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 001,
+					"pokeKey": 1,
+					"pokeName": Pichu,
+					"pokePower": 100,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 001,
+					"pokeKey": 9,
+					"pokeName": Alakazam,
+					"pokePower": 400,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 010,
+					"pokeKey": 2,
+					"pokeName": Raichu,
+					"pokePower": 250,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 011,
+					"pokeKey": 3,
+					"pokeName": Charizard,
+					"pokePower": 400,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 010,
+					"pokeKey": 2,
+					"pokeName": Raichu,
+					"pokePower": 250,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 011,
+					"pokeKey": 3,
+					"pokeName": Charizard,
+					"pokePower": 400,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 100,
+					"pokeKey": 4,
+					"pokeName": Squirtle,
+					"pokePower": 120,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 101,
+					"pokeKey": 5,
+					"pokeName": Bulbasaur,
+					"pokePower": 300,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 100,
+					"pokeKey": 4,
+					"pokeName": Squirtle,
+					"pokePower": 120,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 101,
+					"pokeKey": 5,
+					"pokeName": Bulbasaur,
+					"pokePower": 300,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 110,
+					"pokeKey": 6,
+					"pokeName": Blastoise,
+					"pokePower": 450,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 111,
+					"pokeKey": 7,
+					"pokeName": Abra,
+					"pokePower": 200,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 110,
+					"pokeKey": 6,
+					"pokeName": Blastoise,
+					"pokePower": 450,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 111,
+					"pokeKey": 7,
+					"pokeName": Abra,
+					"pokePower": 200,
+					"pokeType": Psychic
+				}
+			]
+		}
+	}
+}
+"delete": {
+	"emptyBucketNum": 0
+}
+"delete": {
+	"emptyBucketNum": 1
+}
+"delete": {
+	"emptyBucketNum": 1
+}
+"delete": {
+	"emptyBucketNum": 1
+}
+"delete": {
+	"emptyBucketNum": 2
+}
+"delete": {
+	"emptyBucketNum": 3
+}
+"table": {
+	"row": {
+		"hashPref": 000,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 100,
+					"pokeKey": 4,
+					"pokeName": Squirtle,
+					"pokePower": 120,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 101,
+					"pokeKey": 5,
+					"pokeName": Bulbasaur,
+					"pokePower": 300,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 100,
+					"pokeKey": 4,
+					"pokeName": Squirtle,
+					"pokePower": 120,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 101,
+					"pokeKey": 5,
+					"pokeName": Bulbasaur,
+					"pokePower": 300,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 110,
+					"pokeKey": 6,
+					"pokeName": Blastoise,
+					"pokePower": 450,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 111,
+					"pokeKey": 7,
+					"pokeName": Abra,
+					"pokePower": 200,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+				"poke": {
+					"hash": 110,
+					"pokeKey": 6,
+					"pokeName": Blastoise,
+					"pokePower": 450,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 111,
+					"pokeKey": 7,
+					"pokeName": Abra,
+					"pokePower": 200,
+					"pokeType": Psychic
+				}
+			]
+		}
+	}
+}
+"search": {
+}

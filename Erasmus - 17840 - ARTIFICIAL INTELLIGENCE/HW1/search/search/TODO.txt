@@ -1,0 +1,3 @@
+1. Graph search slide 24
+2. merge 2 stacks/queues into one
+3. heuristic function

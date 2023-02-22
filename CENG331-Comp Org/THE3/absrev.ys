@@ -1,0 +1,262 @@
+####################################################################
+#     Muhammad Ebad Malik                                          #
+#     e2414860     ARCLAB Part (c)                                 #
+###################################################################
+
+
+#/* $begin absrev-ys */
+##################################################################
+# absrev.ys - Reverse a src block of len words to dst.
+# Return the sum of absolute values of words contained in src.
+#
+# Muhammad Ebad Malik e2414860
+# Describe how and why you modified the baseline code.
+####################################################################################################
+#                                                                  					#
+#	I have first made the introduction of leaq instruction into pipeline-full.hcl because	#
+#	it provides us with an instruction that helps us do addition or subtraction without		# 
+#	making use of other registers hence saving us multiple instruction count. 			#
+#													#
+#	Secondly, Aim was to be careful about load-use Hazards (data dependence), 			#
+#	So whenever a register was loaded with value it was made sure that it 			#
+#	wasn’t used in the immediate future.								#
+#													#
+#	Also, instead of jumping over negation everytime we assume a positive value and then	#
+#	using subtraction and conditional move we are checking if it is a negative value		#
+#	if so we update the value to abs val of it and then add it to rax register.			#
+#													#
+#													#
+#	To add to this, I have edited the code in such a way that the single loop provided 		#
+#	in the original code is now unrolled with a factor of 8. I chose the factor as 8 		#
+#	because 8 elements can be handled easily as we have enough registers for it. 		#
+#	log2(8) gives us an integer value which means that it is a good integer for a binary 	#
+#	search like approach. In addition to this, 64 the max test case n is also divisible by 8.	#
+#	Therefore, as soon as the remaining elements are less than 8, we go check 4,2,1 etc.	#
+#													#
+#	The dst_rev = dst + len - 1 code is changed in such a way that now it’s redundant lines 	#
+#	are removed by doing len * (2^3) essentially using 3 addq’s.					#
+#													#												
+#  The unrolling is working as follows:								#
+#													#				
+#	1.First loop is checking if there are more than 8 elements in the source array. If that 	#
+#	is the case then labels A1xx are executed and they copy the first 8 elements to the end 	#
+#	of the dest array (in reverse order basically). Then before returning to the loop’s check, 	#
+#	it updates the values of the src,dest and length register’s accordingly.			#
+#													#
+#	2.Then the check happens again to see if there are more than 8 elements. If there are less 	#
+#	than 8 elements we go to less_than_eight which is checking if it has less than 4 elements 	#
+#	or not. If yes, it goes to less_than_four. If it has more than 4 elements it executes the 	#
+#	labels A2xx. it updates the values of the src,dest and length register’s accordingly. Now it #
+#	proceeds to less_than_four. Which follows the same logic as less_than_eight. After this, 	#
+#	it goes to less_than_two.									#
+#													#
+#	3.Similarly now less_than_two checks for elements less than two in the same fashion as in 	#
+#	less_than_four and if remaining elements are less than 1 it goes to Done. else, it goes 	#
+#	and executes label A4xx which is adding the last element to the array while copying it 	#
+#	to the destination array’s first index.							#
+#													#
+#	5.Here the code is finished, since the whole src array is added in reverse to dest array 	#
+#	and the absolute sum of the elements is stored in %rax.					#
+#                    #											#
+#                                                                  #					#
+#####################################################################################################
+
+
+##################################################################
+# Do not modify this portion
+# Function prologue.
+# %rdi = src, %rsi = dst, %rdx = len
+absrev:
+##################################################################
+# You can modify this portion
+    # Loop header
+    xorq %rax,%rax    					# sum = 0;
+    
+    # all this for dst_rev = dst + len - 1
+    xorq %rcx, %rcx     				# zero rcx
+    rrmovq %rdx, %rcx					# move len to rcx
+    addq %rcx, %rcx					# rcx = 2*rcx
+    addq %rcx, %rcx					# rcx = 2*rcx
+    addq %rcx, %rcx					# rcx = 2*rcx hence making it rcx = len*8
+    
+    addq %rsi, %rcx     				# add dst
+    leaq -8(%rcx), %rcx      				# for subtracting 8 (now rcx points to last index of dst)
+    
+
+Loop:
+	icmpq $8, %rdx					# loop check
+	jl less_than_eight				# if len < 8, go to less_than_eight which handles N < 8
+
+							# else loop for N>=8 starts
+A100:
+	mrmovq (%rdi), %r8				# put 1st src elem in r8
+	mrmovq 8(%rdi), %r9				# put 2nd src elem in r9
+	rmmovq %r8, (%rcx)				# move 1st src elem to dest				
+    	xorq %r14, %r14     				# zero r14
+    	subq %r8, %r14      				# set CC flags, and when r8(1st src elem) is negative, makes r14 the abs val of it.
+    	cmovge %r14,%r8				# if r14 > r8, then move r14 to r8, means if r8 is negative, move r14(abs val of r8) to r8
+							# if r8 > r14 meaning that r8 is positive then it doesn't update r8.
+A110:	
+	addq %r8, %rax					# add 1st src elem to sum
+	
+	mrmovq 16(%rdi), %r10				# put 3rd src elem in r10
+	mrmovq 24(%rdi), %r12				# put 4th src elem in r12
+	rmmovq %r9, -8(%rcx)				# move 2nd src elem to dest
+    	xorq %rbx, %rbx     				# zero rbx
+    	subq %r9, %rbx      				# set CC flags, and when r9 is negative, makes rbx the abs val of it.
+    	cmovge %rbx,%r9				# if rbx > r9, then move rbx to r9, means if r9 is negative, move rbx(abs val of r9) to r9
+	
+A120:	
+	addq %r9, %rax					# add 2nd src elem to sum
+	
+	mrmovq 32(%rdi), %r11				# put 5th src elem in r11
+	mrmovq 40(%rdi), %r8				# put 6th src elem in r8
+	rmmovq %r10, -16(%rcx)				# move 3rd src elem to dest
+    	xorq %r14, %r14     				# zero r14
+    	subq %r10, %r14      				# set CC flags, essentially everytime (r14/rbx) = element * -1
+    	cmovge %r14,%r10				# if element is negative, move it's abs value into it (specific examples shown in A110/A100 comments)
+	
+A130:	
+	addq %r10, %rax				# add 3rd src elem to sum
+    
+ 	mrmovq 48(%rdi), %r9				# put 7th src elem in r9
+	mrmovq 56(%rdi), %r13				# put 8th src elem in r13
+	rmmovq %r12, -24(%rcx)				# move 4th src elem to dest
+    	xorq %rbx, %rbx     				# zero rbx
+    	subq %r12, %rbx      				# set CC flags, essentially everytime (r14/rbx) = element * -1
+    	cmovge %rbx,%r12				# if element is negative, move it's abs value into it (specific examples shown in A110/A100 comments)
+	
+A140:					
+	addq %r12, %rax				# add 4th src elem to sum
+	
+	rmmovq %r11, -32(%rcx)				# move 5th src elem to dest
+    	xorq %r14, %r14     				# zero r14
+    	subq %r11, %r14      				# set CC flags, essentially everytime (r14/rbx) = element * -1
+    	cmovge %r14,%r11				# if element is negative, move it's abs value into it (specific examples shown in A110/A100 comments)
+	
+A150:	
+	addq %r11, %rax  				# add 5th src elem to sum
+
+	rmmovq %r8, -40(%rcx)				# move 6th src elem to dest
+    	xorq %rbx, %rbx     				# zero rbx
+    	subq %r8, %rbx      				# set CC flags, essentially everytime (r14/rbx) = element * -1
+    	cmovge %rbx,%r8				# if element is negative, move it's abs value into it (specific examples shown in A110/A100 comments)
+	
+A160:	
+	addq %r8, %rax     				# add 6th src elem to sum
+
+	rmmovq %r9, -48(%rcx)				# move 7th src elem to dest
+    	xorq %r14, %r14     				# zero r14
+    	subq %r9, %r14      				# set CC flags, essentially everytime (r14/rbx) = element * -1
+    	cmovge %r14,%r9				# if element is negative, move it's abs value into it (specific examples shown in A110/A100 comments)
+	
+A170:	
+	addq %r9, %rax      				# add 7th src elem to sum
+
+	rmmovq %r13, -56(%rcx)				# move 8th src elem to dest
+    	xorq %rbx, %rbx     				# zero rbx
+    	subq %r13, %rbx      				# set CC flags, essentially everytime (r14/rbx) = element * -1
+    	cmovge %rbx,%r13				# if element is negative, move it's abs value into it (specific examples shown in A110/A100 comments)
+	
+A180:	
+	addq %r13, %rax				# add 8th src elem to sum
+	leaq 64(%rdi), %rdi				# move src arr 8 elem to the right
+	leaq -64(%rcx), %rcx				# move dest arr 8 element's to the left
+	leaq -8(%rdx),%rdx				# decrease length by 8
+	jmp Loop					
+
+less_than_eight:
+	icmpq 4, %rdx					# if len < 4 go to less_than_four which handles N < 4.
+	jl less_than_four
+
+A200:							# else len >= 4 handler
+	mrmovq (%rdi), %r8				# put 1st src elem to r8
+	mrmovq 8(%rdi), %r9				# put 2nd src elem to r9
+	rmmovq %r8, (%rcx)				# move 1st src elem to dest
+    	xorq %r14, %r14     				# zero r14
+    	subq %r8, %r14      				# set CC flags, essentially everytime (r14/rbx) = element * -1
+    	cmovge %r14,%r8				# if element is negative, move it's abs value into it (specific examples shown in A110/A100 comments)
+	
+A210:	
+	addq %r8, %rax 				# add 1st src elem to sum
+	
+	mrmovq 16(%rdi), %r10				# put 3rd src elem to r10
+	mrmovq 24(%rdi), %r11				# put 4th src elem to r11
+	rmmovq %r9, -8(%rcx)				# move 2nd src elem to dest
+    	xorq %rbx, %rbx     				# zero rbx
+    	subq %r9, %rbx      				# set CC flags, essentially everytime (r14/rbx) = element * -1
+    	cmovge %rbx,%r9				# if element is negative, move it's abs value into it (specific examples shown in A110/A100 comments)
+	
+A220:							
+	addq %r9, %rax					# add 2nd src elem to sum
+	
+	rmmovq %r10, -16(%rcx)				# move 3rd src elem to dest
+    	xorq %r14, %r14     				# zero r14
+    	subq %r10, %r14      				# set CC flags, essentially everytime (r14/rbx) = element * -1
+    	cmovge %r14,%r10				# if element is negative, move it's abs value into it (specific examples shown in A110/A100 comments)
+	
+A230:	
+	addq %r10, %rax				# add 3rd src elem to sum
+
+	rmmovq %r11, -24(%rcx)				# move 4th src elem to dest
+    	xorq %rbx, %rbx     				# zero rbx
+    	subq %r11, %rbx      				# set CC flags, essentially everytime (r14/rbx) = element * -1
+    	cmovge %rbx,%r11				# if element is negative, move it's abs value into it (specific examples shown in A110/A100 comments)
+	
+A240:	
+	addq %r11, %rax 				# add 4th src elem to sum
+	leaq 32(%rdi), %rdi				# move src arr 4 elem to the right
+	leaq -32(%rcx), %rcx				# move dst arr 4 elem to the left
+	leaq -4(%rdx), %rdx				# decrease len by 4
+
+	
+less_than_four:
+	icmpq 2, %rdx
+	jl less_than_two				# if len < 2 go to less_than_two which handles N < 2.
+	
+A300:							# else len >= 2 handler
+	mrmovq (%rdi), %r8				# put 1st src elem in r8
+	mrmovq 8(%rdi), %r9				# put 2nd src elem in r9
+	rmmovq %r8, (%rcx)				# move 1st src elem to dest
+    	xorq %r14, %r14     				# zero r14
+    	subq %r8, %r14      				# set CC flags, essentially everytime (r14/rbx) = element * -1
+    	cmovge %r14,%r8				# if element is negative, move it's abs value into it (specific examples shown in A110/A100 comments)
+	
+A310:	
+	addq %r8, %rax					# add 1st src elem to sum
+	
+	rmmovq %r9, -8(%rcx)				# move 2nd src elem to dest
+    	xorq %rbx, %rbx     				# zero rbx
+    	subq %r9, %rbx      				# set CC flags, essentially everytime (r14/rbx) = element * -1
+    	cmovge %rbx,%r9				# if element is negative, move it's abs value into it (specific examples shown in A110/A100 comments)
+	
+A320:	
+	addq %r9, %rax					# add 2nd src elem to sum
+	
+	leaq 16(%rdi), %rdi				# move src arr 2 elem to the right
+	leaq -16(%rcx), %rcx				# move dst arr 2 elem to the left
+	leaq -2(%rdx), %rdx				# decrease len by 2
+	
+less_than_two:
+	icmpq 1, %rdx
+	jl Done					# if len < 1 go to done as no element left.
+	
+A400:							# else 1 element handler
+	mrmovq (%rdi), %r8				# put 1st src elem in r8
+	rmmovq %r8, (%rcx)				# move 1st src elem to dest
+    	xorq %r14, %r14     				# zero r14
+    	subq %r8, %r14      				# set CC flags, essentially everytime (r14/rbx) = element * -1
+    	cmovge %r14,%r8				# if element is negative, move it's abs value into it (specific examples shown in A110/A100 comments)
+	
+A410:	
+	addq %r8, %rax					# add 1st src elem to sum
+	
+##################################################################
+# Do not modify the following section of code
+# Function epilogue.
+Done:  
+    ret
+##################################################################
+# Keep the following label at the end of your function
+End:
+#/* $end absrev-ys */

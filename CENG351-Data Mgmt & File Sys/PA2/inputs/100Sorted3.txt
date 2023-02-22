@@ -1,0 +1,239 @@
+HashMod:64
+BucketSize:2
+add	0	Krokorok	511	Fire
+add	1	Meditite	402	Dark
+add	2	Carkol	809	Fire
+add	3	Snivy	654	Fire
+add	4	Arcanine	612	Fire
+add	5	Falinks	118	Grass
+print
+add	6	Drifblim	32	Electric
+add	7	Happiny	812	Dark
+add	8	Palossand	263	Dark
+add	9	Golduck	439	Psychic
+add	10	Lickilicky	780	Grass
+add	11	Cyndaquil	357	Fire
+print
+add	12	Nidoran♂	509	Fire
+add	13	Togetic	938	Grass
+add	14	Clobbopus	547	Fire
+add	15	Woobat	529	Dark
+add	16	Slowking	930	Fire
+add	17	Obstagoon	755	Fire
+add	18	Sizzlipede	300	Dark
+add	19	Vespiquen	591	Psychic
+search	2
+add	20	Wooper	522	Electric
+add	21	Cubchoo	916	Psychic
+add	22	Jigglypuff	108	Fire
+add	23	Zeraora	484	Water
+add	24	Mismagius	985	Electric
+print
+add	25	Flareon	851	Grass
+add	26	Donphan	17	Fire
+add	27	Mantine	374	Water
+add	28	Porygon2	748	Dark
+add	29	Pidgeotto	405	Electric
+add	30	Rhyhorn	182	Psychic
+add	31	Celesteela	390	Water
+add	32	Sobble	764	Fire
+add	33	Dwebble	66	Grass
+add	34	Honchkrow	822	Water
+print
+add	35	Basculegion	652	Fire
+add	36	Noctowl	770	Dark
+add	37	Blipbug	155	Dark
+add	38	Drilbur	976	Dark
+add	39	Regice	905	Fire
+add	40	Venonat	690	Fire
+add	41	Venomoth	175	Grass
+add	42	Moltres	361	Electric
+add	43	Dialga	250	Water
+add	44	Crabominable	86	Water
+add	45	Rotom	377	Grass
+add	46	Galvantula	424	Grass
+add	47	Mesprit	775	Electric
+add	48	Pignite	686	Dark
+search	32
+add	49	Sunflora	605	Fire
+add	50	Sudowoodo	663	Water
+print
+add	51	Tympole	452	Dark
+add	52	Deerling	63	Electric
+add	53	Raticate	528	Water
+add	54	Reuniclus	827	Fire
+add	55	Ampharos	823	Psychic
+add	56	Chingling	183	Fire
+add	57	Garchomp	771	Psychic
+add	58	Druddigon	968	Fire
+add	59	Spinda	270	Fire
+add	60	Pancham	99	Water
+add	61	Araquanid	755	Fire
+add	62	Corvisquire	480	Fire
+add	63	Cursola	774	Fire
+add	64	Toucannon	985	Psychic
+add	65	Pheromosa	843	Psychic
+search	66
+add	66	Torkoal	444	Electric
+search	66
+add	67	Tauros	717	Water
+add	68	Tsareena	755	Psychic
+print
+add	69	Tapu	764	Electric
+add	70	Haunter	97	Psychic
+add	71	Lycanroc	270	Electric
+add	72	Trumbeak	867	Fire
+search	72
+add	73	Natu	399	Dark
+add	74	Frogadier	326	Electric
+add	75	Hydreigon	815	Electric
+add	76	Larvesta	385	Electric
+search	700
+add	77	Stakataka	402	Dark
+print
+add	78	Shiftry	847	Dark
+add	79	Snorlax	728	Psychic
+add	80	Eiscue	925	Fire
+add	81	Lampent	4	Electric
+add	82	Alcremie	418	Electric
+add	83	Spiritomb	194	Psychic
+add	84	Gourgeist	930	Electric
+add	85	Vibrava	894	Psychic
+add	86	Basculegion	886	Grass
+add	87	Panpour	480	Electric
+add	88	Pangoro	68	Electric
+add	89	Omanyte	111	Psychic
+print
+add	90	Sneasel	641	Electric
+add	91	Helioptile	485	Fire
+add	92	Galvantula	944	Electric
+add	93	Sandshrew	547	Fire
+add	94	Watchog	521	Dark
+add	95	Hawlucha	859	Dark
+add	96	Mantine	349	Fire
+add	97	Mesprit	108	Psychic
+print
+add	98	Phione	451	Psychic
+add	99	Goldeen	458	Psychic
+print
+search	1
+search	100
+search	3
+search	88
+search	64
+delete	0
+delete	1
+delete	2
+delete	3
+delete	4
+delete	5
+delete	6
+delete	7
+delete	8
+delete	9
+print
+delete	10
+delete	11
+delete	12
+delete	13
+delete	14
+delete	15
+delete	16
+delete	17
+delete	18
+delete	19
+print
+delete	20
+delete	21
+delete	22
+delete	23
+delete	24
+delete	25
+delete	26
+delete	27
+delete	28
+delete	29
+delete	30
+delete	31
+delete	32
+delete	33
+delete	34
+delete	35
+delete	36
+print
+delete	37
+delete	38
+delete	39
+delete	40
+delete	41
+delete	42
+delete	43
+delete	44
+delete	45
+delete	46
+delete	47
+delete	48
+delete	49
+delete	50
+delete	51
+print
+delete	52
+delete	53
+delete	54
+delete	55
+delete	56
+delete	57
+delete	58
+delete	59
+delete	60
+delete	61
+delete	62
+print
+delete	63
+delete	64
+delete	65
+delete	66
+delete	67
+delete	68
+delete	69
+delete	70
+delete	71
+delete	72
+delete	73
+print
+delete	74
+delete	75
+delete	76
+delete	77
+delete	78
+delete	79
+delete	80
+delete	81
+delete	82
+delete	83
+delete	84
+delete	85
+print
+delete	86
+delete	87
+delete	88
+delete	89
+delete	90
+delete	91
+delete	92
+delete	93
+delete	94
+print
+delete	95
+delete	96
+delete	97
+delete	98
+add	0	Krokorok	511	Fire
+add	1	Meditite	402	Dark
+add	2	Carkol	809	Fire
+add	3	Snivy	654	Fire
+add	4	Arcanine	612	Fire
+add	5	Falinks	118	Grass
+delete	99
+print
+quit

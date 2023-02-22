@@ -1,0 +1,10 @@
+"table": {
+	"row": {
+		"hashPref": 0,
+		"bucket": {
+			"hashLength": 0,
+			"pokes": [
+			]
+		}
+	}
+}

@@ -1,0 +1,9469 @@
+"table": {
+	"row": {
+		"hashPref": 00000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000000,
+					"pokeKey": 0,
+					"pokeName": Krokorok,
+					"pokePower": 511,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000001,
+					"pokeKey": 1,
+					"pokeName": Meditite,
+					"pokePower": 402,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000010,
+					"pokeKey": 2,
+					"pokeName": Carkol,
+					"pokePower": 809,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000011,
+					"pokeKey": 3,
+					"pokeName": Snivy,
+					"pokePower": 654,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00010,
+		"bucket": {
+			"hashLength": 4,
+			"pokes": [
+				"poke": {
+					"hash": 000100,
+					"pokeKey": 4,
+					"pokeName": Arcanine,
+					"pokePower": 612,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000101,
+					"pokeKey": 5,
+					"pokeName": Falinks,
+					"pokePower": 118,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00011,
+		"bucket": {
+			"hashLength": 4,
+			"pokes": [
+				"poke": {
+					"hash": 000100,
+					"pokeKey": 4,
+					"pokeName": Arcanine,
+					"pokePower": 612,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000101,
+					"pokeKey": 5,
+					"pokeName": Falinks,
+					"pokePower": 118,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00100,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00101,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00110,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00111,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01000,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01001,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01010,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01011,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01100,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01101,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01110,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01111,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10000,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10001,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10010,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10011,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10100,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10101,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10110,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10111,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11000,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11001,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11010,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11011,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11100,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11101,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11110,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11111,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	}
+}
+"table": {
+	"row": {
+		"hashPref": 00000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000000,
+					"pokeKey": 0,
+					"pokeName": Krokorok,
+					"pokePower": 511,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000001,
+					"pokeKey": 1,
+					"pokeName": Meditite,
+					"pokePower": 402,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000010,
+					"pokeKey": 2,
+					"pokeName": Carkol,
+					"pokePower": 809,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000011,
+					"pokeKey": 3,
+					"pokeName": Snivy,
+					"pokePower": 654,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000100,
+					"pokeKey": 4,
+					"pokeName": Arcanine,
+					"pokePower": 612,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000101,
+					"pokeKey": 5,
+					"pokeName": Falinks,
+					"pokePower": 118,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000110,
+					"pokeKey": 6,
+					"pokeName": Drifblim,
+					"pokePower": 32,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 000111,
+					"pokeKey": 7,
+					"pokeName": Happiny,
+					"pokePower": 812,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001000,
+					"pokeKey": 8,
+					"pokeName": Palossand,
+					"pokePower": 263,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 001001,
+					"pokeKey": 9,
+					"pokeName": Golduck,
+					"pokePower": 439,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001010,
+					"pokeKey": 10,
+					"pokeName": Lickilicky,
+					"pokePower": 780,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 001011,
+					"pokeKey": 11,
+					"pokeName": Cyndaquil,
+					"pokePower": 357,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00110,
+		"bucket": {
+			"hashLength": 4,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00111,
+		"bucket": {
+			"hashLength": 4,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01000,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01001,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01010,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01011,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01100,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01101,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01110,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01111,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10000,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10001,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10010,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10011,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10100,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10101,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10110,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10111,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11000,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11001,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11010,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11011,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11100,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11101,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11110,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11111,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	}
+}
+"search": {
+	"row": {
+		"hashPref": 00001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000010,
+					"pokeKey": 2,
+					"pokeName": Carkol,
+					"pokePower": 809,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000011,
+					"pokeKey": 3,
+					"pokeName": Snivy,
+					"pokePower": 654,
+					"pokeType": Fire
+				}
+			]
+		}
+	}
+}
+"table": {
+	"row": {
+		"hashPref": 00000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000000,
+					"pokeKey": 0,
+					"pokeName": Krokorok,
+					"pokePower": 511,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000001,
+					"pokeKey": 1,
+					"pokeName": Meditite,
+					"pokePower": 402,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000010,
+					"pokeKey": 2,
+					"pokeName": Carkol,
+					"pokePower": 809,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000011,
+					"pokeKey": 3,
+					"pokeName": Snivy,
+					"pokePower": 654,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000100,
+					"pokeKey": 4,
+					"pokeName": Arcanine,
+					"pokePower": 612,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000101,
+					"pokeKey": 5,
+					"pokeName": Falinks,
+					"pokePower": 118,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000110,
+					"pokeKey": 6,
+					"pokeName": Drifblim,
+					"pokePower": 32,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 000111,
+					"pokeKey": 7,
+					"pokeName": Happiny,
+					"pokePower": 812,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001000,
+					"pokeKey": 8,
+					"pokeName": Palossand,
+					"pokePower": 263,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 001001,
+					"pokeKey": 9,
+					"pokeName": Golduck,
+					"pokePower": 439,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001010,
+					"pokeKey": 10,
+					"pokeName": Lickilicky,
+					"pokePower": 780,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 001011,
+					"pokeKey": 11,
+					"pokeName": Cyndaquil,
+					"pokePower": 357,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001100,
+					"pokeKey": 12,
+					"pokeName": Nidoran♂,
+					"pokePower": 509,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001101,
+					"pokeKey": 13,
+					"pokeName": Togetic,
+					"pokePower": 938,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001110,
+					"pokeKey": 14,
+					"pokeName": Clobbopus,
+					"pokePower": 547,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001111,
+					"pokeKey": 15,
+					"pokeName": Woobat,
+					"pokePower": 529,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010000,
+					"pokeKey": 16,
+					"pokeName": Slowking,
+					"pokePower": 930,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010001,
+					"pokeKey": 17,
+					"pokeName": Obstagoon,
+					"pokePower": 755,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010010,
+					"pokeKey": 18,
+					"pokeName": Sizzlipede,
+					"pokePower": 300,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 010011,
+					"pokeKey": 19,
+					"pokeName": Vespiquen,
+					"pokePower": 591,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010100,
+					"pokeKey": 20,
+					"pokeName": Wooper,
+					"pokePower": 522,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 010101,
+					"pokeKey": 21,
+					"pokeName": Cubchoo,
+					"pokePower": 916,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010110,
+					"pokeKey": 22,
+					"pokeName": Jigglypuff,
+					"pokePower": 108,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010111,
+					"pokeKey": 23,
+					"pokeName": Zeraora,
+					"pokePower": 484,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01100,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 011000,
+					"pokeKey": 24,
+					"pokeName": Mismagius,
+					"pokePower": 985,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01101,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 011000,
+					"pokeKey": 24,
+					"pokeName": Mismagius,
+					"pokePower": 985,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01110,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 011000,
+					"pokeKey": 24,
+					"pokeName": Mismagius,
+					"pokePower": 985,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01111,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+				"poke": {
+					"hash": 011000,
+					"pokeKey": 24,
+					"pokeName": Mismagius,
+					"pokePower": 985,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10000,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10001,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10010,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10011,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10100,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10101,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10110,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10111,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11000,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11001,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11010,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11011,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11100,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11101,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11110,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11111,
+		"bucket": {
+			"hashLength": 1,
+			"pokes": [
+			]
+		}
+	}
+}
+"table": {
+	"row": {
+		"hashPref": 00000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000000,
+					"pokeKey": 0,
+					"pokeName": Krokorok,
+					"pokePower": 511,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000001,
+					"pokeKey": 1,
+					"pokeName": Meditite,
+					"pokePower": 402,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000010,
+					"pokeKey": 2,
+					"pokeName": Carkol,
+					"pokePower": 809,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000011,
+					"pokeKey": 3,
+					"pokeName": Snivy,
+					"pokePower": 654,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000100,
+					"pokeKey": 4,
+					"pokeName": Arcanine,
+					"pokePower": 612,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000101,
+					"pokeKey": 5,
+					"pokeName": Falinks,
+					"pokePower": 118,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000110,
+					"pokeKey": 6,
+					"pokeName": Drifblim,
+					"pokePower": 32,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 000111,
+					"pokeKey": 7,
+					"pokeName": Happiny,
+					"pokePower": 812,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001000,
+					"pokeKey": 8,
+					"pokeName": Palossand,
+					"pokePower": 263,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 001001,
+					"pokeKey": 9,
+					"pokeName": Golduck,
+					"pokePower": 439,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001010,
+					"pokeKey": 10,
+					"pokeName": Lickilicky,
+					"pokePower": 780,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 001011,
+					"pokeKey": 11,
+					"pokeName": Cyndaquil,
+					"pokePower": 357,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001100,
+					"pokeKey": 12,
+					"pokeName": Nidoran♂,
+					"pokePower": 509,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001101,
+					"pokeKey": 13,
+					"pokeName": Togetic,
+					"pokePower": 938,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001110,
+					"pokeKey": 14,
+					"pokeName": Clobbopus,
+					"pokePower": 547,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001111,
+					"pokeKey": 15,
+					"pokeName": Woobat,
+					"pokePower": 529,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010000,
+					"pokeKey": 16,
+					"pokeName": Slowking,
+					"pokePower": 930,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010001,
+					"pokeKey": 17,
+					"pokeName": Obstagoon,
+					"pokePower": 755,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010010,
+					"pokeKey": 18,
+					"pokeName": Sizzlipede,
+					"pokePower": 300,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 010011,
+					"pokeKey": 19,
+					"pokeName": Vespiquen,
+					"pokePower": 591,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010100,
+					"pokeKey": 20,
+					"pokeName": Wooper,
+					"pokePower": 522,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 010101,
+					"pokeKey": 21,
+					"pokeName": Cubchoo,
+					"pokePower": 916,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010110,
+					"pokeKey": 22,
+					"pokeName": Jigglypuff,
+					"pokePower": 108,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010111,
+					"pokeKey": 23,
+					"pokeName": Zeraora,
+					"pokePower": 484,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011000,
+					"pokeKey": 24,
+					"pokeName": Mismagius,
+					"pokePower": 985,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 011001,
+					"pokeKey": 25,
+					"pokeName": Flareon,
+					"pokePower": 851,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011010,
+					"pokeKey": 26,
+					"pokeName": Donphan,
+					"pokePower": 17,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 011011,
+					"pokeKey": 27,
+					"pokeName": Mantine,
+					"pokePower": 374,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011100,
+					"pokeKey": 28,
+					"pokeName": Porygon2,
+					"pokePower": 748,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 011101,
+					"pokeKey": 29,
+					"pokeName": Pidgeotto,
+					"pokePower": 405,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011110,
+					"pokeKey": 30,
+					"pokeName": Rhyhorn,
+					"pokePower": 182,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 011111,
+					"pokeKey": 31,
+					"pokeName": Celesteela,
+					"pokePower": 390,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100000,
+					"pokeKey": 32,
+					"pokeName": Sobble,
+					"pokePower": 764,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 100001,
+					"pokeKey": 33,
+					"pokeName": Dwebble,
+					"pokePower": 66,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100010,
+					"pokeKey": 34,
+					"pokeName": Honchkrow,
+					"pokePower": 822,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10010,
+		"bucket": {
+			"hashLength": 4,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10011,
+		"bucket": {
+			"hashLength": 4,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10100,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10101,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10110,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10111,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11000,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11001,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11010,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11011,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11100,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11101,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11110,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11111,
+		"bucket": {
+			"hashLength": 2,
+			"pokes": [
+			]
+		}
+	}
+}
+"search": {
+	"row": {
+		"hashPref": 10000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100000,
+					"pokeKey": 32,
+					"pokeName": Sobble,
+					"pokePower": 764,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 100001,
+					"pokeKey": 33,
+					"pokeName": Dwebble,
+					"pokePower": 66,
+					"pokeType": Grass
+				}
+			]
+		}
+	}
+}
+"table": {
+	"row": {
+		"hashPref": 00000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000000,
+					"pokeKey": 0,
+					"pokeName": Krokorok,
+					"pokePower": 511,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000001,
+					"pokeKey": 1,
+					"pokeName": Meditite,
+					"pokePower": 402,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000010,
+					"pokeKey": 2,
+					"pokeName": Carkol,
+					"pokePower": 809,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000011,
+					"pokeKey": 3,
+					"pokeName": Snivy,
+					"pokePower": 654,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000100,
+					"pokeKey": 4,
+					"pokeName": Arcanine,
+					"pokePower": 612,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000101,
+					"pokeKey": 5,
+					"pokeName": Falinks,
+					"pokePower": 118,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000110,
+					"pokeKey": 6,
+					"pokeName": Drifblim,
+					"pokePower": 32,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 000111,
+					"pokeKey": 7,
+					"pokeName": Happiny,
+					"pokePower": 812,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001000,
+					"pokeKey": 8,
+					"pokeName": Palossand,
+					"pokePower": 263,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 001001,
+					"pokeKey": 9,
+					"pokeName": Golduck,
+					"pokePower": 439,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001010,
+					"pokeKey": 10,
+					"pokeName": Lickilicky,
+					"pokePower": 780,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 001011,
+					"pokeKey": 11,
+					"pokeName": Cyndaquil,
+					"pokePower": 357,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001100,
+					"pokeKey": 12,
+					"pokeName": Nidoran♂,
+					"pokePower": 509,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001101,
+					"pokeKey": 13,
+					"pokeName": Togetic,
+					"pokePower": 938,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 00111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001110,
+					"pokeKey": 14,
+					"pokeName": Clobbopus,
+					"pokePower": 547,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001111,
+					"pokeKey": 15,
+					"pokeName": Woobat,
+					"pokePower": 529,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010000,
+					"pokeKey": 16,
+					"pokeName": Slowking,
+					"pokePower": 930,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010001,
+					"pokeKey": 17,
+					"pokeName": Obstagoon,
+					"pokePower": 755,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010010,
+					"pokeKey": 18,
+					"pokeName": Sizzlipede,
+					"pokePower": 300,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 010011,
+					"pokeKey": 19,
+					"pokeName": Vespiquen,
+					"pokePower": 591,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010100,
+					"pokeKey": 20,
+					"pokeName": Wooper,
+					"pokePower": 522,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 010101,
+					"pokeKey": 21,
+					"pokeName": Cubchoo,
+					"pokePower": 916,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010110,
+					"pokeKey": 22,
+					"pokeName": Jigglypuff,
+					"pokePower": 108,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010111,
+					"pokeKey": 23,
+					"pokeName": Zeraora,
+					"pokePower": 484,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011000,
+					"pokeKey": 24,
+					"pokeName": Mismagius,
+					"pokePower": 985,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 011001,
+					"pokeKey": 25,
+					"pokeName": Flareon,
+					"pokePower": 851,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011010,
+					"pokeKey": 26,
+					"pokeName": Donphan,
+					"pokePower": 17,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 011011,
+					"pokeKey": 27,
+					"pokeName": Mantine,
+					"pokePower": 374,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011100,
+					"pokeKey": 28,
+					"pokeName": Porygon2,
+					"pokePower": 748,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 011101,
+					"pokeKey": 29,
+					"pokeName": Pidgeotto,
+					"pokePower": 405,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 01111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011110,
+					"pokeKey": 30,
+					"pokeName": Rhyhorn,
+					"pokePower": 182,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 011111,
+					"pokeKey": 31,
+					"pokeName": Celesteela,
+					"pokePower": 390,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100000,
+					"pokeKey": 32,
+					"pokeName": Sobble,
+					"pokePower": 764,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 100001,
+					"pokeKey": 33,
+					"pokeName": Dwebble,
+					"pokePower": 66,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100010,
+					"pokeKey": 34,
+					"pokeName": Honchkrow,
+					"pokePower": 822,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 100011,
+					"pokeKey": 35,
+					"pokeName": Basculegion,
+					"pokePower": 652,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100100,
+					"pokeKey": 36,
+					"pokeName": Noctowl,
+					"pokePower": 770,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100101,
+					"pokeKey": 37,
+					"pokeName": Blipbug,
+					"pokePower": 155,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100110,
+					"pokeKey": 38,
+					"pokeName": Drilbur,
+					"pokePower": 976,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100111,
+					"pokeKey": 39,
+					"pokeName": Regice,
+					"pokePower": 905,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101000,
+					"pokeKey": 40,
+					"pokeName": Venonat,
+					"pokePower": 690,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 101001,
+					"pokeKey": 41,
+					"pokeName": Venomoth,
+					"pokePower": 175,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101010,
+					"pokeKey": 42,
+					"pokeName": Moltres,
+					"pokePower": 361,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 101011,
+					"pokeKey": 43,
+					"pokeName": Dialga,
+					"pokePower": 250,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101100,
+					"pokeKey": 44,
+					"pokeName": Crabominable,
+					"pokePower": 86,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 101101,
+					"pokeKey": 45,
+					"pokeName": Rotom,
+					"pokePower": 377,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 10111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101110,
+					"pokeKey": 46,
+					"pokeName": Galvantula,
+					"pokePower": 424,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 101111,
+					"pokeKey": 47,
+					"pokeName": Mesprit,
+					"pokePower": 775,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110000,
+					"pokeKey": 48,
+					"pokeName": Pignite,
+					"pokePower": 686,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 110001,
+					"pokeKey": 49,
+					"pokeName": Sunflora,
+					"pokePower": 605,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110010,
+					"pokeKey": 50,
+					"pokeName": Sudowoodo,
+					"pokePower": 663,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11010,
+		"bucket": {
+			"hashLength": 4,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11011,
+		"bucket": {
+			"hashLength": 4,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11100,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11101,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11110,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+			]
+		}
+	},
+	"row": {
+		"hashPref": 11111,
+		"bucket": {
+			"hashLength": 3,
+			"pokes": [
+			]
+		}
+	}
+}
+"search": {
+}
+"search": {
+	"row": {
+		"hashPref": 000010,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000010,
+					"pokeKey": 2,
+					"pokeName": Carkol,
+					"pokePower": 809,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000010,
+					"pokeKey": 66,
+					"pokeName": Torkoal,
+					"pokePower": 444,
+					"pokeType": Electric
+				}
+			]
+		}
+	}
+}
+"table": {
+	"row": {
+		"hashPref": 000000,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000000,
+					"pokeKey": 0,
+					"pokeName": Krokorok,
+					"pokePower": 511,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000000,
+					"pokeKey": 64,
+					"pokeName": Toucannon,
+					"pokePower": 985,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000001,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000001,
+					"pokeKey": 1,
+					"pokeName": Meditite,
+					"pokePower": 402,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 000001,
+					"pokeKey": 65,
+					"pokeName": Pheromosa,
+					"pokePower": 843,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000010,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000010,
+					"pokeKey": 2,
+					"pokeName": Carkol,
+					"pokePower": 809,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000010,
+					"pokeKey": 66,
+					"pokeName": Torkoal,
+					"pokePower": 444,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000011,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000011,
+					"pokeKey": 3,
+					"pokeName": Snivy,
+					"pokePower": 654,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000011,
+					"pokeKey": 67,
+					"pokeName": Tauros,
+					"pokePower": 717,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000100,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000100,
+					"pokeKey": 4,
+					"pokeName": Arcanine,
+					"pokePower": 612,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000100,
+					"pokeKey": 68,
+					"pokeName": Tsareena,
+					"pokePower": 755,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000101,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000101,
+					"pokeKey": 5,
+					"pokeName": Falinks,
+					"pokePower": 118,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000110,
+					"pokeKey": 6,
+					"pokeName": Drifblim,
+					"pokePower": 32,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 000111,
+					"pokeKey": 7,
+					"pokeName": Happiny,
+					"pokePower": 812,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 000110,
+					"pokeKey": 6,
+					"pokeName": Drifblim,
+					"pokePower": 32,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 000111,
+					"pokeKey": 7,
+					"pokeName": Happiny,
+					"pokePower": 812,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001000,
+					"pokeKey": 8,
+					"pokeName": Palossand,
+					"pokePower": 263,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 001001,
+					"pokeKey": 9,
+					"pokeName": Golduck,
+					"pokePower": 439,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001000,
+					"pokeKey": 8,
+					"pokeName": Palossand,
+					"pokePower": 263,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 001001,
+					"pokeKey": 9,
+					"pokeName": Golduck,
+					"pokePower": 439,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001010,
+					"pokeKey": 10,
+					"pokeName": Lickilicky,
+					"pokePower": 780,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 001011,
+					"pokeKey": 11,
+					"pokeName": Cyndaquil,
+					"pokePower": 357,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001010,
+					"pokeKey": 10,
+					"pokeName": Lickilicky,
+					"pokePower": 780,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 001011,
+					"pokeKey": 11,
+					"pokeName": Cyndaquil,
+					"pokePower": 357,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001100,
+					"pokeKey": 12,
+					"pokeName": Nidoran♂,
+					"pokePower": 509,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001101,
+					"pokeKey": 13,
+					"pokeName": Togetic,
+					"pokePower": 938,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001100,
+					"pokeKey": 12,
+					"pokeName": Nidoran♂,
+					"pokePower": 509,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001101,
+					"pokeKey": 13,
+					"pokeName": Togetic,
+					"pokePower": 938,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001110,
+					"pokeKey": 14,
+					"pokeName": Clobbopus,
+					"pokePower": 547,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001111,
+					"pokeKey": 15,
+					"pokeName": Woobat,
+					"pokePower": 529,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001110,
+					"pokeKey": 14,
+					"pokeName": Clobbopus,
+					"pokePower": 547,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001111,
+					"pokeKey": 15,
+					"pokeName": Woobat,
+					"pokePower": 529,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010000,
+					"pokeKey": 16,
+					"pokeName": Slowking,
+					"pokePower": 930,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010001,
+					"pokeKey": 17,
+					"pokeName": Obstagoon,
+					"pokePower": 755,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010000,
+					"pokeKey": 16,
+					"pokeName": Slowking,
+					"pokePower": 930,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010001,
+					"pokeKey": 17,
+					"pokeName": Obstagoon,
+					"pokePower": 755,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010010,
+					"pokeKey": 18,
+					"pokeName": Sizzlipede,
+					"pokePower": 300,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 010011,
+					"pokeKey": 19,
+					"pokeName": Vespiquen,
+					"pokePower": 591,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010010,
+					"pokeKey": 18,
+					"pokeName": Sizzlipede,
+					"pokePower": 300,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 010011,
+					"pokeKey": 19,
+					"pokeName": Vespiquen,
+					"pokePower": 591,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010100,
+					"pokeKey": 20,
+					"pokeName": Wooper,
+					"pokePower": 522,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 010101,
+					"pokeKey": 21,
+					"pokeName": Cubchoo,
+					"pokePower": 916,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010100,
+					"pokeKey": 20,
+					"pokeName": Wooper,
+					"pokePower": 522,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 010101,
+					"pokeKey": 21,
+					"pokeName": Cubchoo,
+					"pokePower": 916,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010110,
+					"pokeKey": 22,
+					"pokeName": Jigglypuff,
+					"pokePower": 108,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010111,
+					"pokeKey": 23,
+					"pokeName": Zeraora,
+					"pokePower": 484,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010110,
+					"pokeKey": 22,
+					"pokeName": Jigglypuff,
+					"pokePower": 108,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010111,
+					"pokeKey": 23,
+					"pokeName": Zeraora,
+					"pokePower": 484,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011000,
+					"pokeKey": 24,
+					"pokeName": Mismagius,
+					"pokePower": 985,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 011001,
+					"pokeKey": 25,
+					"pokeName": Flareon,
+					"pokePower": 851,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011000,
+					"pokeKey": 24,
+					"pokeName": Mismagius,
+					"pokePower": 985,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 011001,
+					"pokeKey": 25,
+					"pokeName": Flareon,
+					"pokePower": 851,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011010,
+					"pokeKey": 26,
+					"pokeName": Donphan,
+					"pokePower": 17,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 011011,
+					"pokeKey": 27,
+					"pokeName": Mantine,
+					"pokePower": 374,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011010,
+					"pokeKey": 26,
+					"pokeName": Donphan,
+					"pokePower": 17,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 011011,
+					"pokeKey": 27,
+					"pokeName": Mantine,
+					"pokePower": 374,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011100,
+					"pokeKey": 28,
+					"pokeName": Porygon2,
+					"pokePower": 748,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 011101,
+					"pokeKey": 29,
+					"pokeName": Pidgeotto,
+					"pokePower": 405,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011100,
+					"pokeKey": 28,
+					"pokeName": Porygon2,
+					"pokePower": 748,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 011101,
+					"pokeKey": 29,
+					"pokeName": Pidgeotto,
+					"pokePower": 405,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011110,
+					"pokeKey": 30,
+					"pokeName": Rhyhorn,
+					"pokePower": 182,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 011111,
+					"pokeKey": 31,
+					"pokeName": Celesteela,
+					"pokePower": 390,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011110,
+					"pokeKey": 30,
+					"pokeName": Rhyhorn,
+					"pokePower": 182,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 011111,
+					"pokeKey": 31,
+					"pokeName": Celesteela,
+					"pokePower": 390,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100000,
+					"pokeKey": 32,
+					"pokeName": Sobble,
+					"pokePower": 764,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 100001,
+					"pokeKey": 33,
+					"pokeName": Dwebble,
+					"pokePower": 66,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100000,
+					"pokeKey": 32,
+					"pokeName": Sobble,
+					"pokePower": 764,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 100001,
+					"pokeKey": 33,
+					"pokeName": Dwebble,
+					"pokePower": 66,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100010,
+					"pokeKey": 34,
+					"pokeName": Honchkrow,
+					"pokePower": 822,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 100011,
+					"pokeKey": 35,
+					"pokeName": Basculegion,
+					"pokePower": 652,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100010,
+					"pokeKey": 34,
+					"pokeName": Honchkrow,
+					"pokePower": 822,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 100011,
+					"pokeKey": 35,
+					"pokeName": Basculegion,
+					"pokePower": 652,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100100,
+					"pokeKey": 36,
+					"pokeName": Noctowl,
+					"pokePower": 770,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100101,
+					"pokeKey": 37,
+					"pokeName": Blipbug,
+					"pokePower": 155,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100100,
+					"pokeKey": 36,
+					"pokeName": Noctowl,
+					"pokePower": 770,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100101,
+					"pokeKey": 37,
+					"pokeName": Blipbug,
+					"pokePower": 155,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100110,
+					"pokeKey": 38,
+					"pokeName": Drilbur,
+					"pokePower": 976,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100111,
+					"pokeKey": 39,
+					"pokeName": Regice,
+					"pokePower": 905,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100110,
+					"pokeKey": 38,
+					"pokeName": Drilbur,
+					"pokePower": 976,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100111,
+					"pokeKey": 39,
+					"pokeName": Regice,
+					"pokePower": 905,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101000,
+					"pokeKey": 40,
+					"pokeName": Venonat,
+					"pokePower": 690,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 101001,
+					"pokeKey": 41,
+					"pokeName": Venomoth,
+					"pokePower": 175,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101000,
+					"pokeKey": 40,
+					"pokeName": Venonat,
+					"pokePower": 690,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 101001,
+					"pokeKey": 41,
+					"pokeName": Venomoth,
+					"pokePower": 175,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101010,
+					"pokeKey": 42,
+					"pokeName": Moltres,
+					"pokePower": 361,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 101011,
+					"pokeKey": 43,
+					"pokeName": Dialga,
+					"pokePower": 250,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101010,
+					"pokeKey": 42,
+					"pokeName": Moltres,
+					"pokePower": 361,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 101011,
+					"pokeKey": 43,
+					"pokeName": Dialga,
+					"pokePower": 250,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101100,
+					"pokeKey": 44,
+					"pokeName": Crabominable,
+					"pokePower": 86,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 101101,
+					"pokeKey": 45,
+					"pokeName": Rotom,
+					"pokePower": 377,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101100,
+					"pokeKey": 44,
+					"pokeName": Crabominable,
+					"pokePower": 86,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 101101,
+					"pokeKey": 45,
+					"pokeName": Rotom,
+					"pokePower": 377,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101110,
+					"pokeKey": 46,
+					"pokeName": Galvantula,
+					"pokePower": 424,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 101111,
+					"pokeKey": 47,
+					"pokeName": Mesprit,
+					"pokePower": 775,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101110,
+					"pokeKey": 46,
+					"pokeName": Galvantula,
+					"pokePower": 424,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 101111,
+					"pokeKey": 47,
+					"pokeName": Mesprit,
+					"pokePower": 775,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110000,
+					"pokeKey": 48,
+					"pokeName": Pignite,
+					"pokePower": 686,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 110001,
+					"pokeKey": 49,
+					"pokeName": Sunflora,
+					"pokePower": 605,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110000,
+					"pokeKey": 48,
+					"pokeName": Pignite,
+					"pokePower": 686,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 110001,
+					"pokeKey": 49,
+					"pokeName": Sunflora,
+					"pokePower": 605,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110010,
+					"pokeKey": 50,
+					"pokeName": Sudowoodo,
+					"pokePower": 663,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 110011,
+					"pokeKey": 51,
+					"pokeName": Tympole,
+					"pokePower": 452,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110010,
+					"pokeKey": 50,
+					"pokeName": Sudowoodo,
+					"pokePower": 663,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 110011,
+					"pokeKey": 51,
+					"pokeName": Tympole,
+					"pokePower": 452,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110100,
+					"pokeKey": 52,
+					"pokeName": Deerling,
+					"pokePower": 63,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 110101,
+					"pokeKey": 53,
+					"pokeName": Raticate,
+					"pokePower": 528,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110100,
+					"pokeKey": 52,
+					"pokeName": Deerling,
+					"pokePower": 63,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 110101,
+					"pokeKey": 53,
+					"pokeName": Raticate,
+					"pokePower": 528,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110110,
+					"pokeKey": 54,
+					"pokeName": Reuniclus,
+					"pokePower": 827,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 110111,
+					"pokeKey": 55,
+					"pokeName": Ampharos,
+					"pokePower": 823,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110110,
+					"pokeKey": 54,
+					"pokeName": Reuniclus,
+					"pokePower": 827,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 110111,
+					"pokeKey": 55,
+					"pokeName": Ampharos,
+					"pokePower": 823,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111000,
+					"pokeKey": 56,
+					"pokeName": Chingling,
+					"pokePower": 183,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111001,
+					"pokeKey": 57,
+					"pokeName": Garchomp,
+					"pokePower": 771,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111000,
+					"pokeKey": 56,
+					"pokeName": Chingling,
+					"pokePower": 183,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111001,
+					"pokeKey": 57,
+					"pokeName": Garchomp,
+					"pokePower": 771,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111010,
+					"pokeKey": 58,
+					"pokeName": Druddigon,
+					"pokePower": 968,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111011,
+					"pokeKey": 59,
+					"pokeName": Spinda,
+					"pokePower": 270,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111010,
+					"pokeKey": 58,
+					"pokeName": Druddigon,
+					"pokePower": 968,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111011,
+					"pokeKey": 59,
+					"pokeName": Spinda,
+					"pokePower": 270,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111100,
+					"pokeKey": 60,
+					"pokeName": Pancham,
+					"pokePower": 99,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 111101,
+					"pokeKey": 61,
+					"pokeName": Araquanid,
+					"pokePower": 755,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111100,
+					"pokeKey": 60,
+					"pokeName": Pancham,
+					"pokePower": 99,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 111101,
+					"pokeKey": 61,
+					"pokeName": Araquanid,
+					"pokePower": 755,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111110,
+					"pokeKey": 62,
+					"pokeName": Corvisquire,
+					"pokePower": 480,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111111,
+					"pokeKey": 63,
+					"pokeName": Cursola,
+					"pokePower": 774,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111110,
+					"pokeKey": 62,
+					"pokeName": Corvisquire,
+					"pokePower": 480,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111111,
+					"pokeKey": 63,
+					"pokeName": Cursola,
+					"pokePower": 774,
+					"pokeType": Fire
+				}
+			]
+		}
+	}
+}
+"search": {
+	"row": {
+		"hashPref": 001000,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001000,
+					"pokeKey": 8,
+					"pokeName": Palossand,
+					"pokePower": 263,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 001000,
+					"pokeKey": 72,
+					"pokeName": Trumbeak,
+					"pokePower": 867,
+					"pokeType": Fire
+				}
+			]
+		}
+	}
+}
+"search": {
+}
+"table": {
+	"row": {
+		"hashPref": 000000,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000000,
+					"pokeKey": 0,
+					"pokeName": Krokorok,
+					"pokePower": 511,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000000,
+					"pokeKey": 64,
+					"pokeName": Toucannon,
+					"pokePower": 985,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000001,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000001,
+					"pokeKey": 1,
+					"pokeName": Meditite,
+					"pokePower": 402,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 000001,
+					"pokeKey": 65,
+					"pokeName": Pheromosa,
+					"pokePower": 843,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000010,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000010,
+					"pokeKey": 2,
+					"pokeName": Carkol,
+					"pokePower": 809,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000010,
+					"pokeKey": 66,
+					"pokeName": Torkoal,
+					"pokePower": 444,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000011,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000011,
+					"pokeKey": 3,
+					"pokeName": Snivy,
+					"pokePower": 654,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000011,
+					"pokeKey": 67,
+					"pokeName": Tauros,
+					"pokePower": 717,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000100,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000100,
+					"pokeKey": 4,
+					"pokeName": Arcanine,
+					"pokePower": 612,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000100,
+					"pokeKey": 68,
+					"pokeName": Tsareena,
+					"pokePower": 755,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000101,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000101,
+					"pokeKey": 5,
+					"pokeName": Falinks,
+					"pokePower": 118,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 000101,
+					"pokeKey": 69,
+					"pokeName": Tapu,
+					"pokePower": 764,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000110,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000110,
+					"pokeKey": 6,
+					"pokeName": Drifblim,
+					"pokePower": 32,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 000110,
+					"pokeKey": 70,
+					"pokeName": Haunter,
+					"pokePower": 97,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000111,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000111,
+					"pokeKey": 7,
+					"pokeName": Happiny,
+					"pokePower": 812,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 000111,
+					"pokeKey": 71,
+					"pokeName": Lycanroc,
+					"pokePower": 270,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001000,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001000,
+					"pokeKey": 8,
+					"pokeName": Palossand,
+					"pokePower": 263,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 001000,
+					"pokeKey": 72,
+					"pokeName": Trumbeak,
+					"pokePower": 867,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001001,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001001,
+					"pokeKey": 9,
+					"pokeName": Golduck,
+					"pokePower": 439,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 001001,
+					"pokeKey": 73,
+					"pokeName": Natu,
+					"pokePower": 399,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001010,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001010,
+					"pokeKey": 10,
+					"pokeName": Lickilicky,
+					"pokePower": 780,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 001010,
+					"pokeKey": 74,
+					"pokeName": Frogadier,
+					"pokePower": 326,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001011,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001011,
+					"pokeKey": 11,
+					"pokeName": Cyndaquil,
+					"pokePower": 357,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001011,
+					"pokeKey": 75,
+					"pokeName": Hydreigon,
+					"pokePower": 815,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001100,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001100,
+					"pokeKey": 12,
+					"pokeName": Nidoran♂,
+					"pokePower": 509,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001100,
+					"pokeKey": 76,
+					"pokeName": Larvesta,
+					"pokePower": 385,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001101,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001101,
+					"pokeKey": 13,
+					"pokeName": Togetic,
+					"pokePower": 938,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 001101,
+					"pokeKey": 77,
+					"pokeName": Stakataka,
+					"pokePower": 402,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001110,
+					"pokeKey": 14,
+					"pokeName": Clobbopus,
+					"pokePower": 547,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001111,
+					"pokeKey": 15,
+					"pokeName": Woobat,
+					"pokePower": 529,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 001110,
+					"pokeKey": 14,
+					"pokeName": Clobbopus,
+					"pokePower": 547,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001111,
+					"pokeKey": 15,
+					"pokeName": Woobat,
+					"pokePower": 529,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010000,
+					"pokeKey": 16,
+					"pokeName": Slowking,
+					"pokePower": 930,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010001,
+					"pokeKey": 17,
+					"pokeName": Obstagoon,
+					"pokePower": 755,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010000,
+					"pokeKey": 16,
+					"pokeName": Slowking,
+					"pokePower": 930,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010001,
+					"pokeKey": 17,
+					"pokeName": Obstagoon,
+					"pokePower": 755,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010010,
+					"pokeKey": 18,
+					"pokeName": Sizzlipede,
+					"pokePower": 300,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 010011,
+					"pokeKey": 19,
+					"pokeName": Vespiquen,
+					"pokePower": 591,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010010,
+					"pokeKey": 18,
+					"pokeName": Sizzlipede,
+					"pokePower": 300,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 010011,
+					"pokeKey": 19,
+					"pokeName": Vespiquen,
+					"pokePower": 591,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010100,
+					"pokeKey": 20,
+					"pokeName": Wooper,
+					"pokePower": 522,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 010101,
+					"pokeKey": 21,
+					"pokeName": Cubchoo,
+					"pokePower": 916,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010100,
+					"pokeKey": 20,
+					"pokeName": Wooper,
+					"pokePower": 522,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 010101,
+					"pokeKey": 21,
+					"pokeName": Cubchoo,
+					"pokePower": 916,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010110,
+					"pokeKey": 22,
+					"pokeName": Jigglypuff,
+					"pokePower": 108,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010111,
+					"pokeKey": 23,
+					"pokeName": Zeraora,
+					"pokePower": 484,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 010110,
+					"pokeKey": 22,
+					"pokeName": Jigglypuff,
+					"pokePower": 108,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010111,
+					"pokeKey": 23,
+					"pokeName": Zeraora,
+					"pokePower": 484,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011000,
+					"pokeKey": 24,
+					"pokeName": Mismagius,
+					"pokePower": 985,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 011001,
+					"pokeKey": 25,
+					"pokeName": Flareon,
+					"pokePower": 851,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011000,
+					"pokeKey": 24,
+					"pokeName": Mismagius,
+					"pokePower": 985,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 011001,
+					"pokeKey": 25,
+					"pokeName": Flareon,
+					"pokePower": 851,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011010,
+					"pokeKey": 26,
+					"pokeName": Donphan,
+					"pokePower": 17,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 011011,
+					"pokeKey": 27,
+					"pokeName": Mantine,
+					"pokePower": 374,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011010,
+					"pokeKey": 26,
+					"pokeName": Donphan,
+					"pokePower": 17,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 011011,
+					"pokeKey": 27,
+					"pokeName": Mantine,
+					"pokePower": 374,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011100,
+					"pokeKey": 28,
+					"pokeName": Porygon2,
+					"pokePower": 748,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 011101,
+					"pokeKey": 29,
+					"pokeName": Pidgeotto,
+					"pokePower": 405,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011100,
+					"pokeKey": 28,
+					"pokeName": Porygon2,
+					"pokePower": 748,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 011101,
+					"pokeKey": 29,
+					"pokeName": Pidgeotto,
+					"pokePower": 405,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011110,
+					"pokeKey": 30,
+					"pokeName": Rhyhorn,
+					"pokePower": 182,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 011111,
+					"pokeKey": 31,
+					"pokeName": Celesteela,
+					"pokePower": 390,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011110,
+					"pokeKey": 30,
+					"pokeName": Rhyhorn,
+					"pokePower": 182,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 011111,
+					"pokeKey": 31,
+					"pokeName": Celesteela,
+					"pokePower": 390,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100000,
+					"pokeKey": 32,
+					"pokeName": Sobble,
+					"pokePower": 764,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 100001,
+					"pokeKey": 33,
+					"pokeName": Dwebble,
+					"pokePower": 66,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100000,
+					"pokeKey": 32,
+					"pokeName": Sobble,
+					"pokePower": 764,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 100001,
+					"pokeKey": 33,
+					"pokeName": Dwebble,
+					"pokePower": 66,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100010,
+					"pokeKey": 34,
+					"pokeName": Honchkrow,
+					"pokePower": 822,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 100011,
+					"pokeKey": 35,
+					"pokeName": Basculegion,
+					"pokePower": 652,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100010,
+					"pokeKey": 34,
+					"pokeName": Honchkrow,
+					"pokePower": 822,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 100011,
+					"pokeKey": 35,
+					"pokeName": Basculegion,
+					"pokePower": 652,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100100,
+					"pokeKey": 36,
+					"pokeName": Noctowl,
+					"pokePower": 770,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100101,
+					"pokeKey": 37,
+					"pokeName": Blipbug,
+					"pokePower": 155,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100100,
+					"pokeKey": 36,
+					"pokeName": Noctowl,
+					"pokePower": 770,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100101,
+					"pokeKey": 37,
+					"pokeName": Blipbug,
+					"pokePower": 155,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100110,
+					"pokeKey": 38,
+					"pokeName": Drilbur,
+					"pokePower": 976,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100111,
+					"pokeKey": 39,
+					"pokeName": Regice,
+					"pokePower": 905,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100110,
+					"pokeKey": 38,
+					"pokeName": Drilbur,
+					"pokePower": 976,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100111,
+					"pokeKey": 39,
+					"pokeName": Regice,
+					"pokePower": 905,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101000,
+					"pokeKey": 40,
+					"pokeName": Venonat,
+					"pokePower": 690,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 101001,
+					"pokeKey": 41,
+					"pokeName": Venomoth,
+					"pokePower": 175,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101000,
+					"pokeKey": 40,
+					"pokeName": Venonat,
+					"pokePower": 690,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 101001,
+					"pokeKey": 41,
+					"pokeName": Venomoth,
+					"pokePower": 175,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101010,
+					"pokeKey": 42,
+					"pokeName": Moltres,
+					"pokePower": 361,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 101011,
+					"pokeKey": 43,
+					"pokeName": Dialga,
+					"pokePower": 250,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101010,
+					"pokeKey": 42,
+					"pokeName": Moltres,
+					"pokePower": 361,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 101011,
+					"pokeKey": 43,
+					"pokeName": Dialga,
+					"pokePower": 250,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101100,
+					"pokeKey": 44,
+					"pokeName": Crabominable,
+					"pokePower": 86,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 101101,
+					"pokeKey": 45,
+					"pokeName": Rotom,
+					"pokePower": 377,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101100,
+					"pokeKey": 44,
+					"pokeName": Crabominable,
+					"pokePower": 86,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 101101,
+					"pokeKey": 45,
+					"pokeName": Rotom,
+					"pokePower": 377,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101110,
+					"pokeKey": 46,
+					"pokeName": Galvantula,
+					"pokePower": 424,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 101111,
+					"pokeKey": 47,
+					"pokeName": Mesprit,
+					"pokePower": 775,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101110,
+					"pokeKey": 46,
+					"pokeName": Galvantula,
+					"pokePower": 424,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 101111,
+					"pokeKey": 47,
+					"pokeName": Mesprit,
+					"pokePower": 775,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110000,
+					"pokeKey": 48,
+					"pokeName": Pignite,
+					"pokePower": 686,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 110001,
+					"pokeKey": 49,
+					"pokeName": Sunflora,
+					"pokePower": 605,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110000,
+					"pokeKey": 48,
+					"pokeName": Pignite,
+					"pokePower": 686,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 110001,
+					"pokeKey": 49,
+					"pokeName": Sunflora,
+					"pokePower": 605,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110010,
+					"pokeKey": 50,
+					"pokeName": Sudowoodo,
+					"pokePower": 663,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 110011,
+					"pokeKey": 51,
+					"pokeName": Tympole,
+					"pokePower": 452,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110010,
+					"pokeKey": 50,
+					"pokeName": Sudowoodo,
+					"pokePower": 663,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 110011,
+					"pokeKey": 51,
+					"pokeName": Tympole,
+					"pokePower": 452,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110100,
+					"pokeKey": 52,
+					"pokeName": Deerling,
+					"pokePower": 63,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 110101,
+					"pokeKey": 53,
+					"pokeName": Raticate,
+					"pokePower": 528,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110100,
+					"pokeKey": 52,
+					"pokeName": Deerling,
+					"pokePower": 63,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 110101,
+					"pokeKey": 53,
+					"pokeName": Raticate,
+					"pokePower": 528,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110110,
+					"pokeKey": 54,
+					"pokeName": Reuniclus,
+					"pokePower": 827,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 110111,
+					"pokeKey": 55,
+					"pokeName": Ampharos,
+					"pokePower": 823,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110110,
+					"pokeKey": 54,
+					"pokeName": Reuniclus,
+					"pokePower": 827,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 110111,
+					"pokeKey": 55,
+					"pokeName": Ampharos,
+					"pokePower": 823,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111000,
+					"pokeKey": 56,
+					"pokeName": Chingling,
+					"pokePower": 183,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111001,
+					"pokeKey": 57,
+					"pokeName": Garchomp,
+					"pokePower": 771,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111000,
+					"pokeKey": 56,
+					"pokeName": Chingling,
+					"pokePower": 183,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111001,
+					"pokeKey": 57,
+					"pokeName": Garchomp,
+					"pokePower": 771,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111010,
+					"pokeKey": 58,
+					"pokeName": Druddigon,
+					"pokePower": 968,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111011,
+					"pokeKey": 59,
+					"pokeName": Spinda,
+					"pokePower": 270,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111010,
+					"pokeKey": 58,
+					"pokeName": Druddigon,
+					"pokePower": 968,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111011,
+					"pokeKey": 59,
+					"pokeName": Spinda,
+					"pokePower": 270,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111100,
+					"pokeKey": 60,
+					"pokeName": Pancham,
+					"pokePower": 99,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 111101,
+					"pokeKey": 61,
+					"pokeName": Araquanid,
+					"pokePower": 755,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111100,
+					"pokeKey": 60,
+					"pokeName": Pancham,
+					"pokePower": 99,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 111101,
+					"pokeKey": 61,
+					"pokeName": Araquanid,
+					"pokePower": 755,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111110,
+					"pokeKey": 62,
+					"pokeName": Corvisquire,
+					"pokePower": 480,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111111,
+					"pokeKey": 63,
+					"pokeName": Cursola,
+					"pokePower": 774,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111110,
+					"pokeKey": 62,
+					"pokeName": Corvisquire,
+					"pokePower": 480,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111111,
+					"pokeKey": 63,
+					"pokeName": Cursola,
+					"pokePower": 774,
+					"pokeType": Fire
+				}
+			]
+		}
+	}
+}
+"table": {
+	"row": {
+		"hashPref": 000000,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000000,
+					"pokeKey": 0,
+					"pokeName": Krokorok,
+					"pokePower": 511,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000000,
+					"pokeKey": 64,
+					"pokeName": Toucannon,
+					"pokePower": 985,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000001,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000001,
+					"pokeKey": 1,
+					"pokeName": Meditite,
+					"pokePower": 402,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 000001,
+					"pokeKey": 65,
+					"pokeName": Pheromosa,
+					"pokePower": 843,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000010,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000010,
+					"pokeKey": 2,
+					"pokeName": Carkol,
+					"pokePower": 809,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000010,
+					"pokeKey": 66,
+					"pokeName": Torkoal,
+					"pokePower": 444,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000011,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000011,
+					"pokeKey": 3,
+					"pokeName": Snivy,
+					"pokePower": 654,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000011,
+					"pokeKey": 67,
+					"pokeName": Tauros,
+					"pokePower": 717,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000100,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000100,
+					"pokeKey": 4,
+					"pokeName": Arcanine,
+					"pokePower": 612,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000100,
+					"pokeKey": 68,
+					"pokeName": Tsareena,
+					"pokePower": 755,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000101,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000101,
+					"pokeKey": 5,
+					"pokeName": Falinks,
+					"pokePower": 118,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 000101,
+					"pokeKey": 69,
+					"pokeName": Tapu,
+					"pokePower": 764,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000110,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000110,
+					"pokeKey": 6,
+					"pokeName": Drifblim,
+					"pokePower": 32,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 000110,
+					"pokeKey": 70,
+					"pokeName": Haunter,
+					"pokePower": 97,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000111,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000111,
+					"pokeKey": 7,
+					"pokeName": Happiny,
+					"pokePower": 812,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 000111,
+					"pokeKey": 71,
+					"pokeName": Lycanroc,
+					"pokePower": 270,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001000,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001000,
+					"pokeKey": 8,
+					"pokeName": Palossand,
+					"pokePower": 263,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 001000,
+					"pokeKey": 72,
+					"pokeName": Trumbeak,
+					"pokePower": 867,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001001,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001001,
+					"pokeKey": 9,
+					"pokeName": Golduck,
+					"pokePower": 439,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 001001,
+					"pokeKey": 73,
+					"pokeName": Natu,
+					"pokePower": 399,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001010,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001010,
+					"pokeKey": 10,
+					"pokeName": Lickilicky,
+					"pokePower": 780,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 001010,
+					"pokeKey": 74,
+					"pokeName": Frogadier,
+					"pokePower": 326,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001011,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001011,
+					"pokeKey": 11,
+					"pokeName": Cyndaquil,
+					"pokePower": 357,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001011,
+					"pokeKey": 75,
+					"pokeName": Hydreigon,
+					"pokePower": 815,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001100,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001100,
+					"pokeKey": 12,
+					"pokeName": Nidoran♂,
+					"pokePower": 509,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001100,
+					"pokeKey": 76,
+					"pokeName": Larvesta,
+					"pokePower": 385,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001101,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001101,
+					"pokeKey": 13,
+					"pokeName": Togetic,
+					"pokePower": 938,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 001101,
+					"pokeKey": 77,
+					"pokeName": Stakataka,
+					"pokePower": 402,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001110,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001110,
+					"pokeKey": 14,
+					"pokeName": Clobbopus,
+					"pokePower": 547,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001110,
+					"pokeKey": 78,
+					"pokeName": Shiftry,
+					"pokePower": 847,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001111,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001111,
+					"pokeKey": 15,
+					"pokeName": Woobat,
+					"pokePower": 529,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 001111,
+					"pokeKey": 79,
+					"pokeName": Snorlax,
+					"pokePower": 728,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010000,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010000,
+					"pokeKey": 16,
+					"pokeName": Slowking,
+					"pokePower": 930,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010000,
+					"pokeKey": 80,
+					"pokeName": Eiscue,
+					"pokePower": 925,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010001,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010001,
+					"pokeKey": 17,
+					"pokeName": Obstagoon,
+					"pokePower": 755,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010001,
+					"pokeKey": 81,
+					"pokeName": Lampent,
+					"pokePower": 4,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010010,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010010,
+					"pokeKey": 18,
+					"pokeName": Sizzlipede,
+					"pokePower": 300,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 010010,
+					"pokeKey": 82,
+					"pokeName": Alcremie,
+					"pokePower": 418,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010011,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010011,
+					"pokeKey": 19,
+					"pokeName": Vespiquen,
+					"pokePower": 591,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 010011,
+					"pokeKey": 83,
+					"pokeName": Spiritomb,
+					"pokePower": 194,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010100,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010100,
+					"pokeKey": 20,
+					"pokeName": Wooper,
+					"pokePower": 522,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 010100,
+					"pokeKey": 84,
+					"pokeName": Gourgeist,
+					"pokePower": 930,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010101,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010101,
+					"pokeKey": 21,
+					"pokeName": Cubchoo,
+					"pokePower": 916,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 010101,
+					"pokeKey": 85,
+					"pokeName": Vibrava,
+					"pokePower": 894,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010110,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010110,
+					"pokeKey": 22,
+					"pokeName": Jigglypuff,
+					"pokePower": 108,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010110,
+					"pokeKey": 86,
+					"pokeName": Basculegion,
+					"pokePower": 886,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010111,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010111,
+					"pokeKey": 23,
+					"pokeName": Zeraora,
+					"pokePower": 484,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 010111,
+					"pokeKey": 87,
+					"pokeName": Panpour,
+					"pokePower": 480,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011000,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 011000,
+					"pokeKey": 24,
+					"pokeName": Mismagius,
+					"pokePower": 985,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 011000,
+					"pokeKey": 88,
+					"pokeName": Pangoro,
+					"pokePower": 68,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011001,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 011001,
+					"pokeKey": 25,
+					"pokeName": Flareon,
+					"pokePower": 851,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 011001,
+					"pokeKey": 89,
+					"pokeName": Omanyte,
+					"pokePower": 111,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011010,
+					"pokeKey": 26,
+					"pokeName": Donphan,
+					"pokePower": 17,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 011011,
+					"pokeKey": 27,
+					"pokeName": Mantine,
+					"pokePower": 374,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011010,
+					"pokeKey": 26,
+					"pokeName": Donphan,
+					"pokePower": 17,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 011011,
+					"pokeKey": 27,
+					"pokeName": Mantine,
+					"pokePower": 374,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011100,
+					"pokeKey": 28,
+					"pokeName": Porygon2,
+					"pokePower": 748,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 011101,
+					"pokeKey": 29,
+					"pokeName": Pidgeotto,
+					"pokePower": 405,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011100,
+					"pokeKey": 28,
+					"pokeName": Porygon2,
+					"pokePower": 748,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 011101,
+					"pokeKey": 29,
+					"pokeName": Pidgeotto,
+					"pokePower": 405,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011110,
+					"pokeKey": 30,
+					"pokeName": Rhyhorn,
+					"pokePower": 182,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 011111,
+					"pokeKey": 31,
+					"pokeName": Celesteela,
+					"pokePower": 390,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 011110,
+					"pokeKey": 30,
+					"pokeName": Rhyhorn,
+					"pokePower": 182,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 011111,
+					"pokeKey": 31,
+					"pokeName": Celesteela,
+					"pokePower": 390,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100000,
+					"pokeKey": 32,
+					"pokeName": Sobble,
+					"pokePower": 764,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 100001,
+					"pokeKey": 33,
+					"pokeName": Dwebble,
+					"pokePower": 66,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100000,
+					"pokeKey": 32,
+					"pokeName": Sobble,
+					"pokePower": 764,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 100001,
+					"pokeKey": 33,
+					"pokeName": Dwebble,
+					"pokePower": 66,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100010,
+					"pokeKey": 34,
+					"pokeName": Honchkrow,
+					"pokePower": 822,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 100011,
+					"pokeKey": 35,
+					"pokeName": Basculegion,
+					"pokePower": 652,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100010,
+					"pokeKey": 34,
+					"pokeName": Honchkrow,
+					"pokePower": 822,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 100011,
+					"pokeKey": 35,
+					"pokeName": Basculegion,
+					"pokePower": 652,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100100,
+					"pokeKey": 36,
+					"pokeName": Noctowl,
+					"pokePower": 770,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100101,
+					"pokeKey": 37,
+					"pokeName": Blipbug,
+					"pokePower": 155,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100100,
+					"pokeKey": 36,
+					"pokeName": Noctowl,
+					"pokePower": 770,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100101,
+					"pokeKey": 37,
+					"pokeName": Blipbug,
+					"pokePower": 155,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100110,
+					"pokeKey": 38,
+					"pokeName": Drilbur,
+					"pokePower": 976,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100111,
+					"pokeKey": 39,
+					"pokeName": Regice,
+					"pokePower": 905,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100110,
+					"pokeKey": 38,
+					"pokeName": Drilbur,
+					"pokePower": 976,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100111,
+					"pokeKey": 39,
+					"pokeName": Regice,
+					"pokePower": 905,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101000,
+					"pokeKey": 40,
+					"pokeName": Venonat,
+					"pokePower": 690,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 101001,
+					"pokeKey": 41,
+					"pokeName": Venomoth,
+					"pokePower": 175,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101000,
+					"pokeKey": 40,
+					"pokeName": Venonat,
+					"pokePower": 690,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 101001,
+					"pokeKey": 41,
+					"pokeName": Venomoth,
+					"pokePower": 175,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101010,
+					"pokeKey": 42,
+					"pokeName": Moltres,
+					"pokePower": 361,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 101011,
+					"pokeKey": 43,
+					"pokeName": Dialga,
+					"pokePower": 250,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101010,
+					"pokeKey": 42,
+					"pokeName": Moltres,
+					"pokePower": 361,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 101011,
+					"pokeKey": 43,
+					"pokeName": Dialga,
+					"pokePower": 250,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101100,
+					"pokeKey": 44,
+					"pokeName": Crabominable,
+					"pokePower": 86,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 101101,
+					"pokeKey": 45,
+					"pokeName": Rotom,
+					"pokePower": 377,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101100,
+					"pokeKey": 44,
+					"pokeName": Crabominable,
+					"pokePower": 86,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 101101,
+					"pokeKey": 45,
+					"pokeName": Rotom,
+					"pokePower": 377,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101110,
+					"pokeKey": 46,
+					"pokeName": Galvantula,
+					"pokePower": 424,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 101111,
+					"pokeKey": 47,
+					"pokeName": Mesprit,
+					"pokePower": 775,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101110,
+					"pokeKey": 46,
+					"pokeName": Galvantula,
+					"pokePower": 424,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 101111,
+					"pokeKey": 47,
+					"pokeName": Mesprit,
+					"pokePower": 775,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110000,
+					"pokeKey": 48,
+					"pokeName": Pignite,
+					"pokePower": 686,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 110001,
+					"pokeKey": 49,
+					"pokeName": Sunflora,
+					"pokePower": 605,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110000,
+					"pokeKey": 48,
+					"pokeName": Pignite,
+					"pokePower": 686,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 110001,
+					"pokeKey": 49,
+					"pokeName": Sunflora,
+					"pokePower": 605,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110010,
+					"pokeKey": 50,
+					"pokeName": Sudowoodo,
+					"pokePower": 663,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 110011,
+					"pokeKey": 51,
+					"pokeName": Tympole,
+					"pokePower": 452,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110010,
+					"pokeKey": 50,
+					"pokeName": Sudowoodo,
+					"pokePower": 663,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 110011,
+					"pokeKey": 51,
+					"pokeName": Tympole,
+					"pokePower": 452,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110100,
+					"pokeKey": 52,
+					"pokeName": Deerling,
+					"pokePower": 63,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 110101,
+					"pokeKey": 53,
+					"pokeName": Raticate,
+					"pokePower": 528,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110100,
+					"pokeKey": 52,
+					"pokeName": Deerling,
+					"pokePower": 63,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 110101,
+					"pokeKey": 53,
+					"pokeName": Raticate,
+					"pokePower": 528,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110110,
+					"pokeKey": 54,
+					"pokeName": Reuniclus,
+					"pokePower": 827,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 110111,
+					"pokeKey": 55,
+					"pokeName": Ampharos,
+					"pokePower": 823,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110110,
+					"pokeKey": 54,
+					"pokeName": Reuniclus,
+					"pokePower": 827,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 110111,
+					"pokeKey": 55,
+					"pokeName": Ampharos,
+					"pokePower": 823,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111000,
+					"pokeKey": 56,
+					"pokeName": Chingling,
+					"pokePower": 183,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111001,
+					"pokeKey": 57,
+					"pokeName": Garchomp,
+					"pokePower": 771,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111000,
+					"pokeKey": 56,
+					"pokeName": Chingling,
+					"pokePower": 183,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111001,
+					"pokeKey": 57,
+					"pokeName": Garchomp,
+					"pokePower": 771,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111010,
+					"pokeKey": 58,
+					"pokeName": Druddigon,
+					"pokePower": 968,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111011,
+					"pokeKey": 59,
+					"pokeName": Spinda,
+					"pokePower": 270,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111010,
+					"pokeKey": 58,
+					"pokeName": Druddigon,
+					"pokePower": 968,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111011,
+					"pokeKey": 59,
+					"pokeName": Spinda,
+					"pokePower": 270,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111100,
+					"pokeKey": 60,
+					"pokeName": Pancham,
+					"pokePower": 99,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 111101,
+					"pokeKey": 61,
+					"pokeName": Araquanid,
+					"pokePower": 755,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111100,
+					"pokeKey": 60,
+					"pokeName": Pancham,
+					"pokePower": 99,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 111101,
+					"pokeKey": 61,
+					"pokeName": Araquanid,
+					"pokePower": 755,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111110,
+					"pokeKey": 62,
+					"pokeName": Corvisquire,
+					"pokePower": 480,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111111,
+					"pokeKey": 63,
+					"pokeName": Cursola,
+					"pokePower": 774,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111110,
+					"pokeKey": 62,
+					"pokeName": Corvisquire,
+					"pokePower": 480,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111111,
+					"pokeKey": 63,
+					"pokeName": Cursola,
+					"pokePower": 774,
+					"pokeType": Fire
+				}
+			]
+		}
+	}
+}
+"table": {
+	"row": {
+		"hashPref": 000000,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000000,
+					"pokeKey": 0,
+					"pokeName": Krokorok,
+					"pokePower": 511,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000000,
+					"pokeKey": 64,
+					"pokeName": Toucannon,
+					"pokePower": 985,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000001,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000001,
+					"pokeKey": 1,
+					"pokeName": Meditite,
+					"pokePower": 402,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 000001,
+					"pokeKey": 65,
+					"pokeName": Pheromosa,
+					"pokePower": 843,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000010,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000010,
+					"pokeKey": 2,
+					"pokeName": Carkol,
+					"pokePower": 809,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000010,
+					"pokeKey": 66,
+					"pokeName": Torkoal,
+					"pokePower": 444,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000011,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000011,
+					"pokeKey": 3,
+					"pokeName": Snivy,
+					"pokePower": 654,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000011,
+					"pokeKey": 67,
+					"pokeName": Tauros,
+					"pokePower": 717,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000100,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000100,
+					"pokeKey": 4,
+					"pokeName": Arcanine,
+					"pokePower": 612,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000100,
+					"pokeKey": 68,
+					"pokeName": Tsareena,
+					"pokePower": 755,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000101,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000101,
+					"pokeKey": 5,
+					"pokeName": Falinks,
+					"pokePower": 118,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 000101,
+					"pokeKey": 69,
+					"pokeName": Tapu,
+					"pokePower": 764,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000110,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000110,
+					"pokeKey": 6,
+					"pokeName": Drifblim,
+					"pokePower": 32,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 000110,
+					"pokeKey": 70,
+					"pokeName": Haunter,
+					"pokePower": 97,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000111,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000111,
+					"pokeKey": 7,
+					"pokeName": Happiny,
+					"pokePower": 812,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 000111,
+					"pokeKey": 71,
+					"pokeName": Lycanroc,
+					"pokePower": 270,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001000,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001000,
+					"pokeKey": 8,
+					"pokeName": Palossand,
+					"pokePower": 263,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 001000,
+					"pokeKey": 72,
+					"pokeName": Trumbeak,
+					"pokePower": 867,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001001,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001001,
+					"pokeKey": 9,
+					"pokeName": Golduck,
+					"pokePower": 439,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 001001,
+					"pokeKey": 73,
+					"pokeName": Natu,
+					"pokePower": 399,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001010,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001010,
+					"pokeKey": 10,
+					"pokeName": Lickilicky,
+					"pokePower": 780,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 001010,
+					"pokeKey": 74,
+					"pokeName": Frogadier,
+					"pokePower": 326,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001011,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001011,
+					"pokeKey": 11,
+					"pokeName": Cyndaquil,
+					"pokePower": 357,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001011,
+					"pokeKey": 75,
+					"pokeName": Hydreigon,
+					"pokePower": 815,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001100,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001100,
+					"pokeKey": 12,
+					"pokeName": Nidoran♂,
+					"pokePower": 509,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001100,
+					"pokeKey": 76,
+					"pokeName": Larvesta,
+					"pokePower": 385,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001101,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001101,
+					"pokeKey": 13,
+					"pokeName": Togetic,
+					"pokePower": 938,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 001101,
+					"pokeKey": 77,
+					"pokeName": Stakataka,
+					"pokePower": 402,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001110,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001110,
+					"pokeKey": 14,
+					"pokeName": Clobbopus,
+					"pokePower": 547,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001110,
+					"pokeKey": 78,
+					"pokeName": Shiftry,
+					"pokePower": 847,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001111,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001111,
+					"pokeKey": 15,
+					"pokeName": Woobat,
+					"pokePower": 529,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 001111,
+					"pokeKey": 79,
+					"pokeName": Snorlax,
+					"pokePower": 728,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010000,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010000,
+					"pokeKey": 16,
+					"pokeName": Slowking,
+					"pokePower": 930,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010000,
+					"pokeKey": 80,
+					"pokeName": Eiscue,
+					"pokePower": 925,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010001,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010001,
+					"pokeKey": 17,
+					"pokeName": Obstagoon,
+					"pokePower": 755,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010001,
+					"pokeKey": 81,
+					"pokeName": Lampent,
+					"pokePower": 4,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010010,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010010,
+					"pokeKey": 18,
+					"pokeName": Sizzlipede,
+					"pokePower": 300,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 010010,
+					"pokeKey": 82,
+					"pokeName": Alcremie,
+					"pokePower": 418,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010011,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010011,
+					"pokeKey": 19,
+					"pokeName": Vespiquen,
+					"pokePower": 591,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 010011,
+					"pokeKey": 83,
+					"pokeName": Spiritomb,
+					"pokePower": 194,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010100,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010100,
+					"pokeKey": 20,
+					"pokeName": Wooper,
+					"pokePower": 522,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 010100,
+					"pokeKey": 84,
+					"pokeName": Gourgeist,
+					"pokePower": 930,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010101,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010101,
+					"pokeKey": 21,
+					"pokeName": Cubchoo,
+					"pokePower": 916,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 010101,
+					"pokeKey": 85,
+					"pokeName": Vibrava,
+					"pokePower": 894,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010110,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010110,
+					"pokeKey": 22,
+					"pokeName": Jigglypuff,
+					"pokePower": 108,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010110,
+					"pokeKey": 86,
+					"pokeName": Basculegion,
+					"pokePower": 886,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010111,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010111,
+					"pokeKey": 23,
+					"pokeName": Zeraora,
+					"pokePower": 484,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 010111,
+					"pokeKey": 87,
+					"pokeName": Panpour,
+					"pokePower": 480,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011000,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 011000,
+					"pokeKey": 24,
+					"pokeName": Mismagius,
+					"pokePower": 985,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 011000,
+					"pokeKey": 88,
+					"pokeName": Pangoro,
+					"pokePower": 68,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011001,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 011001,
+					"pokeKey": 25,
+					"pokeName": Flareon,
+					"pokePower": 851,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 011001,
+					"pokeKey": 89,
+					"pokeName": Omanyte,
+					"pokePower": 111,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011010,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 011010,
+					"pokeKey": 26,
+					"pokeName": Donphan,
+					"pokePower": 17,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 011010,
+					"pokeKey": 90,
+					"pokeName": Sneasel,
+					"pokePower": 641,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011011,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 011011,
+					"pokeKey": 27,
+					"pokeName": Mantine,
+					"pokePower": 374,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 011011,
+					"pokeKey": 91,
+					"pokeName": Helioptile,
+					"pokePower": 485,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011100,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 011100,
+					"pokeKey": 28,
+					"pokeName": Porygon2,
+					"pokePower": 748,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 011100,
+					"pokeKey": 92,
+					"pokeName": Galvantula,
+					"pokePower": 944,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011101,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 011101,
+					"pokeKey": 29,
+					"pokeName": Pidgeotto,
+					"pokePower": 405,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 011101,
+					"pokeKey": 93,
+					"pokeName": Sandshrew,
+					"pokePower": 547,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011110,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 011110,
+					"pokeKey": 30,
+					"pokeName": Rhyhorn,
+					"pokePower": 182,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 011110,
+					"pokeKey": 94,
+					"pokeName": Watchog,
+					"pokePower": 521,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011111,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 011111,
+					"pokeKey": 31,
+					"pokeName": Celesteela,
+					"pokePower": 390,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 011111,
+					"pokeKey": 95,
+					"pokeName": Hawlucha,
+					"pokePower": 859,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100000,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 100000,
+					"pokeKey": 32,
+					"pokeName": Sobble,
+					"pokePower": 764,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 100000,
+					"pokeKey": 96,
+					"pokeName": Mantine,
+					"pokePower": 349,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100001,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 100001,
+					"pokeKey": 33,
+					"pokeName": Dwebble,
+					"pokePower": 66,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 100001,
+					"pokeKey": 97,
+					"pokeName": Mesprit,
+					"pokePower": 108,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100010,
+					"pokeKey": 34,
+					"pokeName": Honchkrow,
+					"pokePower": 822,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 100011,
+					"pokeKey": 35,
+					"pokeName": Basculegion,
+					"pokePower": 652,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100010,
+					"pokeKey": 34,
+					"pokeName": Honchkrow,
+					"pokePower": 822,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 100011,
+					"pokeKey": 35,
+					"pokeName": Basculegion,
+					"pokePower": 652,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100100,
+					"pokeKey": 36,
+					"pokeName": Noctowl,
+					"pokePower": 770,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100101,
+					"pokeKey": 37,
+					"pokeName": Blipbug,
+					"pokePower": 155,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100100,
+					"pokeKey": 36,
+					"pokeName": Noctowl,
+					"pokePower": 770,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100101,
+					"pokeKey": 37,
+					"pokeName": Blipbug,
+					"pokePower": 155,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100110,
+					"pokeKey": 38,
+					"pokeName": Drilbur,
+					"pokePower": 976,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100111,
+					"pokeKey": 39,
+					"pokeName": Regice,
+					"pokePower": 905,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100110,
+					"pokeKey": 38,
+					"pokeName": Drilbur,
+					"pokePower": 976,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100111,
+					"pokeKey": 39,
+					"pokeName": Regice,
+					"pokePower": 905,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101000,
+					"pokeKey": 40,
+					"pokeName": Venonat,
+					"pokePower": 690,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 101001,
+					"pokeKey": 41,
+					"pokeName": Venomoth,
+					"pokePower": 175,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101000,
+					"pokeKey": 40,
+					"pokeName": Venonat,
+					"pokePower": 690,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 101001,
+					"pokeKey": 41,
+					"pokeName": Venomoth,
+					"pokePower": 175,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101010,
+					"pokeKey": 42,
+					"pokeName": Moltres,
+					"pokePower": 361,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 101011,
+					"pokeKey": 43,
+					"pokeName": Dialga,
+					"pokePower": 250,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101010,
+					"pokeKey": 42,
+					"pokeName": Moltres,
+					"pokePower": 361,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 101011,
+					"pokeKey": 43,
+					"pokeName": Dialga,
+					"pokePower": 250,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101100,
+					"pokeKey": 44,
+					"pokeName": Crabominable,
+					"pokePower": 86,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 101101,
+					"pokeKey": 45,
+					"pokeName": Rotom,
+					"pokePower": 377,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101100,
+					"pokeKey": 44,
+					"pokeName": Crabominable,
+					"pokePower": 86,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 101101,
+					"pokeKey": 45,
+					"pokeName": Rotom,
+					"pokePower": 377,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101110,
+					"pokeKey": 46,
+					"pokeName": Galvantula,
+					"pokePower": 424,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 101111,
+					"pokeKey": 47,
+					"pokeName": Mesprit,
+					"pokePower": 775,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101110,
+					"pokeKey": 46,
+					"pokeName": Galvantula,
+					"pokePower": 424,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 101111,
+					"pokeKey": 47,
+					"pokeName": Mesprit,
+					"pokePower": 775,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110000,
+					"pokeKey": 48,
+					"pokeName": Pignite,
+					"pokePower": 686,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 110001,
+					"pokeKey": 49,
+					"pokeName": Sunflora,
+					"pokePower": 605,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110000,
+					"pokeKey": 48,
+					"pokeName": Pignite,
+					"pokePower": 686,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 110001,
+					"pokeKey": 49,
+					"pokeName": Sunflora,
+					"pokePower": 605,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110010,
+					"pokeKey": 50,
+					"pokeName": Sudowoodo,
+					"pokePower": 663,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 110011,
+					"pokeKey": 51,
+					"pokeName": Tympole,
+					"pokePower": 452,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110010,
+					"pokeKey": 50,
+					"pokeName": Sudowoodo,
+					"pokePower": 663,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 110011,
+					"pokeKey": 51,
+					"pokeName": Tympole,
+					"pokePower": 452,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110100,
+					"pokeKey": 52,
+					"pokeName": Deerling,
+					"pokePower": 63,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 110101,
+					"pokeKey": 53,
+					"pokeName": Raticate,
+					"pokePower": 528,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110100,
+					"pokeKey": 52,
+					"pokeName": Deerling,
+					"pokePower": 63,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 110101,
+					"pokeKey": 53,
+					"pokeName": Raticate,
+					"pokePower": 528,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110110,
+					"pokeKey": 54,
+					"pokeName": Reuniclus,
+					"pokePower": 827,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 110111,
+					"pokeKey": 55,
+					"pokeName": Ampharos,
+					"pokePower": 823,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110110,
+					"pokeKey": 54,
+					"pokeName": Reuniclus,
+					"pokePower": 827,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 110111,
+					"pokeKey": 55,
+					"pokeName": Ampharos,
+					"pokePower": 823,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111000,
+					"pokeKey": 56,
+					"pokeName": Chingling,
+					"pokePower": 183,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111001,
+					"pokeKey": 57,
+					"pokeName": Garchomp,
+					"pokePower": 771,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111000,
+					"pokeKey": 56,
+					"pokeName": Chingling,
+					"pokePower": 183,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111001,
+					"pokeKey": 57,
+					"pokeName": Garchomp,
+					"pokePower": 771,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111010,
+					"pokeKey": 58,
+					"pokeName": Druddigon,
+					"pokePower": 968,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111011,
+					"pokeKey": 59,
+					"pokeName": Spinda,
+					"pokePower": 270,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111010,
+					"pokeKey": 58,
+					"pokeName": Druddigon,
+					"pokePower": 968,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111011,
+					"pokeKey": 59,
+					"pokeName": Spinda,
+					"pokePower": 270,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111100,
+					"pokeKey": 60,
+					"pokeName": Pancham,
+					"pokePower": 99,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 111101,
+					"pokeKey": 61,
+					"pokeName": Araquanid,
+					"pokePower": 755,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111100,
+					"pokeKey": 60,
+					"pokeName": Pancham,
+					"pokePower": 99,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 111101,
+					"pokeKey": 61,
+					"pokeName": Araquanid,
+					"pokePower": 755,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111110,
+					"pokeKey": 62,
+					"pokeName": Corvisquire,
+					"pokePower": 480,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111111,
+					"pokeKey": 63,
+					"pokeName": Cursola,
+					"pokePower": 774,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111110,
+					"pokeKey": 62,
+					"pokeName": Corvisquire,
+					"pokePower": 480,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111111,
+					"pokeKey": 63,
+					"pokeName": Cursola,
+					"pokePower": 774,
+					"pokeType": Fire
+				}
+			]
+		}
+	}
+}
+"table": {
+	"row": {
+		"hashPref": 000000,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000000,
+					"pokeKey": 0,
+					"pokeName": Krokorok,
+					"pokePower": 511,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000000,
+					"pokeKey": 64,
+					"pokeName": Toucannon,
+					"pokePower": 985,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000001,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000001,
+					"pokeKey": 1,
+					"pokeName": Meditite,
+					"pokePower": 402,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 000001,
+					"pokeKey": 65,
+					"pokeName": Pheromosa,
+					"pokePower": 843,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000010,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000010,
+					"pokeKey": 2,
+					"pokeName": Carkol,
+					"pokePower": 809,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000010,
+					"pokeKey": 66,
+					"pokeName": Torkoal,
+					"pokePower": 444,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000011,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000011,
+					"pokeKey": 3,
+					"pokeName": Snivy,
+					"pokePower": 654,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000011,
+					"pokeKey": 67,
+					"pokeName": Tauros,
+					"pokePower": 717,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000100,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000100,
+					"pokeKey": 4,
+					"pokeName": Arcanine,
+					"pokePower": 612,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000100,
+					"pokeKey": 68,
+					"pokeName": Tsareena,
+					"pokePower": 755,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000101,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000101,
+					"pokeKey": 5,
+					"pokeName": Falinks,
+					"pokePower": 118,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 000101,
+					"pokeKey": 69,
+					"pokeName": Tapu,
+					"pokePower": 764,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000110,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000110,
+					"pokeKey": 6,
+					"pokeName": Drifblim,
+					"pokePower": 32,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 000110,
+					"pokeKey": 70,
+					"pokeName": Haunter,
+					"pokePower": 97,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 000111,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000111,
+					"pokeKey": 7,
+					"pokeName": Happiny,
+					"pokePower": 812,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 000111,
+					"pokeKey": 71,
+					"pokeName": Lycanroc,
+					"pokePower": 270,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001000,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001000,
+					"pokeKey": 8,
+					"pokeName": Palossand,
+					"pokePower": 263,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 001000,
+					"pokeKey": 72,
+					"pokeName": Trumbeak,
+					"pokePower": 867,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001001,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001001,
+					"pokeKey": 9,
+					"pokeName": Golduck,
+					"pokePower": 439,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 001001,
+					"pokeKey": 73,
+					"pokeName": Natu,
+					"pokePower": 399,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001010,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001010,
+					"pokeKey": 10,
+					"pokeName": Lickilicky,
+					"pokePower": 780,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 001010,
+					"pokeKey": 74,
+					"pokeName": Frogadier,
+					"pokePower": 326,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001011,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001011,
+					"pokeKey": 11,
+					"pokeName": Cyndaquil,
+					"pokePower": 357,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001011,
+					"pokeKey": 75,
+					"pokeName": Hydreigon,
+					"pokePower": 815,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001100,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001100,
+					"pokeKey": 12,
+					"pokeName": Nidoran♂,
+					"pokePower": 509,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001100,
+					"pokeKey": 76,
+					"pokeName": Larvesta,
+					"pokePower": 385,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001101,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001101,
+					"pokeKey": 13,
+					"pokeName": Togetic,
+					"pokePower": 938,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 001101,
+					"pokeKey": 77,
+					"pokeName": Stakataka,
+					"pokePower": 402,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001110,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001110,
+					"pokeKey": 14,
+					"pokeName": Clobbopus,
+					"pokePower": 547,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 001110,
+					"pokeKey": 78,
+					"pokeName": Shiftry,
+					"pokePower": 847,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 001111,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 001111,
+					"pokeKey": 15,
+					"pokeName": Woobat,
+					"pokePower": 529,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 001111,
+					"pokeKey": 79,
+					"pokeName": Snorlax,
+					"pokePower": 728,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010000,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010000,
+					"pokeKey": 16,
+					"pokeName": Slowking,
+					"pokePower": 930,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010000,
+					"pokeKey": 80,
+					"pokeName": Eiscue,
+					"pokePower": 925,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010001,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010001,
+					"pokeKey": 17,
+					"pokeName": Obstagoon,
+					"pokePower": 755,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010001,
+					"pokeKey": 81,
+					"pokeName": Lampent,
+					"pokePower": 4,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010010,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010010,
+					"pokeKey": 18,
+					"pokeName": Sizzlipede,
+					"pokePower": 300,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 010010,
+					"pokeKey": 82,
+					"pokeName": Alcremie,
+					"pokePower": 418,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010011,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010011,
+					"pokeKey": 19,
+					"pokeName": Vespiquen,
+					"pokePower": 591,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 010011,
+					"pokeKey": 83,
+					"pokeName": Spiritomb,
+					"pokePower": 194,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010100,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010100,
+					"pokeKey": 20,
+					"pokeName": Wooper,
+					"pokePower": 522,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 010100,
+					"pokeKey": 84,
+					"pokeName": Gourgeist,
+					"pokePower": 930,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010101,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010101,
+					"pokeKey": 21,
+					"pokeName": Cubchoo,
+					"pokePower": 916,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 010101,
+					"pokeKey": 85,
+					"pokeName": Vibrava,
+					"pokePower": 894,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010110,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010110,
+					"pokeKey": 22,
+					"pokeName": Jigglypuff,
+					"pokePower": 108,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 010110,
+					"pokeKey": 86,
+					"pokeName": Basculegion,
+					"pokePower": 886,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 010111,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 010111,
+					"pokeKey": 23,
+					"pokeName": Zeraora,
+					"pokePower": 484,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 010111,
+					"pokeKey": 87,
+					"pokeName": Panpour,
+					"pokePower": 480,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011000,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 011000,
+					"pokeKey": 24,
+					"pokeName": Mismagius,
+					"pokePower": 985,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 011000,
+					"pokeKey": 88,
+					"pokeName": Pangoro,
+					"pokePower": 68,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011001,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 011001,
+					"pokeKey": 25,
+					"pokeName": Flareon,
+					"pokePower": 851,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 011001,
+					"pokeKey": 89,
+					"pokeName": Omanyte,
+					"pokePower": 111,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011010,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 011010,
+					"pokeKey": 26,
+					"pokeName": Donphan,
+					"pokePower": 17,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 011010,
+					"pokeKey": 90,
+					"pokeName": Sneasel,
+					"pokePower": 641,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011011,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 011011,
+					"pokeKey": 27,
+					"pokeName": Mantine,
+					"pokePower": 374,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 011011,
+					"pokeKey": 91,
+					"pokeName": Helioptile,
+					"pokePower": 485,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011100,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 011100,
+					"pokeKey": 28,
+					"pokeName": Porygon2,
+					"pokePower": 748,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 011100,
+					"pokeKey": 92,
+					"pokeName": Galvantula,
+					"pokePower": 944,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011101,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 011101,
+					"pokeKey": 29,
+					"pokeName": Pidgeotto,
+					"pokePower": 405,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 011101,
+					"pokeKey": 93,
+					"pokeName": Sandshrew,
+					"pokePower": 547,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011110,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 011110,
+					"pokeKey": 30,
+					"pokeName": Rhyhorn,
+					"pokePower": 182,
+					"pokeType": Psychic
+				},
+				"poke": {
+					"hash": 011110,
+					"pokeKey": 94,
+					"pokeName": Watchog,
+					"pokePower": 521,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 011111,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 011111,
+					"pokeKey": 31,
+					"pokeName": Celesteela,
+					"pokePower": 390,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 011111,
+					"pokeKey": 95,
+					"pokeName": Hawlucha,
+					"pokePower": 859,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100000,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 100000,
+					"pokeKey": 32,
+					"pokeName": Sobble,
+					"pokePower": 764,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 100000,
+					"pokeKey": 96,
+					"pokeName": Mantine,
+					"pokePower": 349,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100001,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 100001,
+					"pokeKey": 33,
+					"pokeName": Dwebble,
+					"pokePower": 66,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 100001,
+					"pokeKey": 97,
+					"pokeName": Mesprit,
+					"pokePower": 108,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100010,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 100010,
+					"pokeKey": 34,
+					"pokeName": Honchkrow,
+					"pokePower": 822,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 100010,
+					"pokeKey": 98,
+					"pokeName": Phione,
+					"pokePower": 451,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100011,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 100011,
+					"pokeKey": 35,
+					"pokeName": Basculegion,
+					"pokePower": 652,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 100011,
+					"pokeKey": 99,
+					"pokeName": Goldeen,
+					"pokePower": 458,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100100,
+					"pokeKey": 36,
+					"pokeName": Noctowl,
+					"pokePower": 770,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100101,
+					"pokeKey": 37,
+					"pokeName": Blipbug,
+					"pokePower": 155,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100100,
+					"pokeKey": 36,
+					"pokeName": Noctowl,
+					"pokePower": 770,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100101,
+					"pokeKey": 37,
+					"pokeName": Blipbug,
+					"pokePower": 155,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100110,
+					"pokeKey": 38,
+					"pokeName": Drilbur,
+					"pokePower": 976,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100111,
+					"pokeKey": 39,
+					"pokeName": Regice,
+					"pokePower": 905,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 100111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 100110,
+					"pokeKey": 38,
+					"pokeName": Drilbur,
+					"pokePower": 976,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 100111,
+					"pokeKey": 39,
+					"pokeName": Regice,
+					"pokePower": 905,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101000,
+					"pokeKey": 40,
+					"pokeName": Venonat,
+					"pokePower": 690,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 101001,
+					"pokeKey": 41,
+					"pokeName": Venomoth,
+					"pokePower": 175,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101000,
+					"pokeKey": 40,
+					"pokeName": Venonat,
+					"pokePower": 690,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 101001,
+					"pokeKey": 41,
+					"pokeName": Venomoth,
+					"pokePower": 175,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101010,
+					"pokeKey": 42,
+					"pokeName": Moltres,
+					"pokePower": 361,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 101011,
+					"pokeKey": 43,
+					"pokeName": Dialga,
+					"pokePower": 250,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101010,
+					"pokeKey": 42,
+					"pokeName": Moltres,
+					"pokePower": 361,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 101011,
+					"pokeKey": 43,
+					"pokeName": Dialga,
+					"pokePower": 250,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101100,
+					"pokeKey": 44,
+					"pokeName": Crabominable,
+					"pokePower": 86,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 101101,
+					"pokeKey": 45,
+					"pokeName": Rotom,
+					"pokePower": 377,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101100,
+					"pokeKey": 44,
+					"pokeName": Crabominable,
+					"pokePower": 86,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 101101,
+					"pokeKey": 45,
+					"pokeName": Rotom,
+					"pokePower": 377,
+					"pokeType": Grass
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101110,
+					"pokeKey": 46,
+					"pokeName": Galvantula,
+					"pokePower": 424,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 101111,
+					"pokeKey": 47,
+					"pokeName": Mesprit,
+					"pokePower": 775,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 101111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 101110,
+					"pokeKey": 46,
+					"pokeName": Galvantula,
+					"pokePower": 424,
+					"pokeType": Grass
+				},
+				"poke": {
+					"hash": 101111,
+					"pokeKey": 47,
+					"pokeName": Mesprit,
+					"pokePower": 775,
+					"pokeType": Electric
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110000,
+					"pokeKey": 48,
+					"pokeName": Pignite,
+					"pokePower": 686,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 110001,
+					"pokeKey": 49,
+					"pokeName": Sunflora,
+					"pokePower": 605,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110000,
+					"pokeKey": 48,
+					"pokeName": Pignite,
+					"pokePower": 686,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 110001,
+					"pokeKey": 49,
+					"pokeName": Sunflora,
+					"pokePower": 605,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110010,
+					"pokeKey": 50,
+					"pokeName": Sudowoodo,
+					"pokePower": 663,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 110011,
+					"pokeKey": 51,
+					"pokeName": Tympole,
+					"pokePower": 452,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110010,
+					"pokeKey": 50,
+					"pokeName": Sudowoodo,
+					"pokePower": 663,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 110011,
+					"pokeKey": 51,
+					"pokeName": Tympole,
+					"pokePower": 452,
+					"pokeType": Dark
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110100,
+					"pokeKey": 52,
+					"pokeName": Deerling,
+					"pokePower": 63,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 110101,
+					"pokeKey": 53,
+					"pokeName": Raticate,
+					"pokePower": 528,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110100,
+					"pokeKey": 52,
+					"pokeName": Deerling,
+					"pokePower": 63,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 110101,
+					"pokeKey": 53,
+					"pokeName": Raticate,
+					"pokePower": 528,
+					"pokeType": Water
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110110,
+					"pokeKey": 54,
+					"pokeName": Reuniclus,
+					"pokePower": 827,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 110111,
+					"pokeKey": 55,
+					"pokeName": Ampharos,
+					"pokePower": 823,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 110111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 110110,
+					"pokeKey": 54,
+					"pokeName": Reuniclus,
+					"pokePower": 827,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 110111,
+					"pokeKey": 55,
+					"pokeName": Ampharos,
+					"pokePower": 823,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111000,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111000,
+					"pokeKey": 56,
+					"pokeName": Chingling,
+					"pokePower": 183,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111001,
+					"pokeKey": 57,
+					"pokeName": Garchomp,
+					"pokePower": 771,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111001,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111000,
+					"pokeKey": 56,
+					"pokeName": Chingling,
+					"pokePower": 183,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111001,
+					"pokeKey": 57,
+					"pokeName": Garchomp,
+					"pokePower": 771,
+					"pokeType": Psychic
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111010,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111010,
+					"pokeKey": 58,
+					"pokeName": Druddigon,
+					"pokePower": 968,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111011,
+					"pokeKey": 59,
+					"pokeName": Spinda,
+					"pokePower": 270,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111011,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111010,
+					"pokeKey": 58,
+					"pokeName": Druddigon,
+					"pokePower": 968,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111011,
+					"pokeKey": 59,
+					"pokeName": Spinda,
+					"pokePower": 270,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111100,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111100,
+					"pokeKey": 60,
+					"pokeName": Pancham,
+					"pokePower": 99,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 111101,
+					"pokeKey": 61,
+					"pokeName": Araquanid,
+					"pokePower": 755,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111101,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111100,
+					"pokeKey": 60,
+					"pokeName": Pancham,
+					"pokePower": 99,
+					"pokeType": Water
+				},
+				"poke": {
+					"hash": 111101,
+					"pokeKey": 61,
+					"pokeName": Araquanid,
+					"pokePower": 755,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111110,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111110,
+					"pokeKey": 62,
+					"pokeName": Corvisquire,
+					"pokePower": 480,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111111,
+					"pokeKey": 63,
+					"pokeName": Cursola,
+					"pokePower": 774,
+					"pokeType": Fire
+				}
+			]
+		}
+	},
+	"row": {
+		"hashPref": 111111,
+		"bucket": {
+			"hashLength": 5,
+			"pokes": [
+				"poke": {
+					"hash": 111110,
+					"pokeKey": 62,
+					"pokeName": Corvisquire,
+					"pokePower": 480,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 111111,
+					"pokeKey": 63,
+					"pokeName": Cursola,
+					"pokePower": 774,
+					"pokeType": Fire
+				}
+			]
+		}
+	}
+}
+"search": {
+	"row": {
+		"hashPref": 000001,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000001,
+					"pokeKey": 1,
+					"pokeName": Meditite,
+					"pokePower": 402,
+					"pokeType": Dark
+				},
+				"poke": {
+					"hash": 000001,
+					"pokeKey": 65,
+					"pokeName": Pheromosa,
+					"pokePower": 843,
+					"pokeType": Psychic
+				}
+			]
+		}
+	}
+}
+"search": {
+}
+"search": {
+	"row": {
+		"hashPref": 000011,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000011,
+					"pokeKey": 3,
+					"pokeName": Snivy,
+					"pokePower": 654,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000011,
+					"pokeKey": 67,
+					"pokeName": Tauros,
+					"pokePower": 717,
+					"pokeType": Water
+				}
+			]
+		}
+	}
+}
+"search": {
+	"row": {
+		"hashPref": 011000,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 011000,
+					"pokeKey": 24,
+					"pokeName": Mismagius,
+					"pokePower": 985,
+					"pokeType": Electric
+				},
+				"poke": {
+					"hash": 011000,
+					"pokeKey": 88,
+					"pokeName": Pangoro,
+					"pokePower": 68,
+					"pokeType": Electric
+				}
+			]
+		}
+	}
+}
+"search": {
+	"row": {
+		"hashPref": 000000,
+		"bucket": {
+			"hashLength": 6,
+			"pokes": [
+				"poke": {
+					"hash": 000000,
+					"pokeKey": 0,
+					"pokeName": Krokorok,
+					"pokePower": 511,
+					"pokeType": Fire
+				},
+				"poke": {
+					"hash": 000000,
+					"pokeKey": 64,
+					"pokeName": Toucannon,
+					"pokePower": 985,
+					"pokeType": Psychic
+				}
+			]
+		}
+	}
+}

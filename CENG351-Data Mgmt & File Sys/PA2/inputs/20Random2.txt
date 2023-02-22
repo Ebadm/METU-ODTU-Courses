@@ -1,0 +1,36 @@
+HashMod:16
+BucketSize:3
+add	19	Psyduck	424	Dark
+add	11	Cherubi	131	Grass
+add	1	Stunky	170	Psychic
+add	12	Poliwag	469	Grass
+add	4	Grubbin	46	Water
+add	17	Sharpedo	145	Fire
+add	5	Swoobat	800	Electric
+print
+add	8	Cloyster	717	Dark
+add	13	Mankey	86	Fire
+add	9	Sawsbuck	429	Water
+print
+add	16	Chewtle	243	Fire
+add	3	Gogoat	844	Grass
+add	6	Latios	457	Water
+add	10	Anorith	271	Psychic
+add	0	Drednaw	538	Fire
+add	14	Moltres	840	Electric
+search	0
+print
+search	3
+add	18	Geodude	298	Grass
+add	7	Dottler	621	Grass
+add	2	Garchomp	947	Water
+add	15	Mamoswine	932	Dark
+print
+search	15
+search	100
+search	10
+search	100
+print
+search	100
+print
+quit

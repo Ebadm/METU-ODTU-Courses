@@ -1,0 +1,35 @@
+HashMod:8
+BucketSize:2
+print
+add	1	Pikachu	100	Electric
+print
+add	4	Charizard	200	Fire
+add	5	Squirtle	120	Water
+add	7	Raichu	250	Electric
+print
+add	8	Pichu	10	Electric
+add	2	Bulbasaur	300	Grass
+print
+search	8
+search	2
+add	20	Blastoise	450	Water
+search	20
+search	3
+print
+delete	4
+print
+delete	7
+print
+add	7	Raichu	250	Electric
+print
+delete	1
+print
+search	1
+search	7
+delete	7
+print
+delete	8
+add	8	Pichu	10	Electric
+delete	8
+print
+quit
